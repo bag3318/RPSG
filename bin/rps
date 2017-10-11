@@ -9,7 +9,7 @@
 =end
 
 
-class PlayRockPaperScissorsGame
+class RPS
 
   require_relative "./../lib/rps/version.rb"
 
@@ -32,10 +32,11 @@ class PlayRockPaperScissorsGame
   end 
 
   continue(Constants::INIT_STRINGS[0], Constants::INIT_STRINGS[1], Constants::INIT_STRINGS[2])
-
+  
   def initialize
     @player_score = @computer_score = @ties = 0 
-  end 
+  end
+
   def play(winning_score) 
     while @player_score < winning_score && @computer_score < winning_score 
       puts ColorizedString["Player score: #{@player_score}, "].colorize(:blue) + 
@@ -75,4 +76,4 @@ class PlayRockPaperScissorsGame
 
 end 
 
-PlayRockPaperScissorsGame.new.play(2) # best of 3
+RPS.new.play(3) # best of 3
