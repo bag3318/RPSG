@@ -1,0 +1,287 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lib/Constants.rb",
+			"settings":
+			{
+				"buffer_size": 1010,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 547.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git quick com",
+				"Git: Quick Commit"
+			],
+			[
+				"git quick add",
+				"Git: Quick Add"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"git quick comm",
+				"Git: Quick Commit"
+			],
+			[
+				"git quick",
+				"Git: Quick Add"
+			]
+		],
+		"width": 1076.0
+	},
+	"console":
+	{
+		"height": 266.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/bglat/Desktop/rps",
+		"/C/Users/bglat/Desktop/rps/lib"
+	],
+	"file_history":
+	[
+		"/C/Users/bglat/Desktop/rps/lib/rps/version.rb",
+		"/C/Users/bglat/Desktop/RockPaperScissors/bin/rps (2017_09_22 19_17_34 UTC)",
+		"/D/FileHistory/Brock Glatman/BROCKSURFACEPRO/Data/C/Users/Brock Glatman/Desktop/RockPaperScissors/docs/Comparing_Code (2017_09_22 19_17_34 UTC).md",
+		"/C/Users/bglat/Desktop/rps/lib/rps.rb",
+		"/C/Users/bglat/Desktop/bag3318.github.io/crowdin.yaml",
+		"/C/Users/bglat/Desktop/bag3318.github.io/green.sublime-project",
+		"/C/Users/bglat/Desktop/bag3318.github.io/.gitignore",
+		"/C/Users/bglat/Desktop/README.md",
+		"/C/Users/bglat/Desktop/bag3318.github.io/assets/css/main.scss",
+		"/C/Users/bglat/Desktop/bag3318.github.io/_includes/base_path",
+		"/C/Users/bglat/OneDrive/Documents/School/Coding/BrockGlatman.Q1-11.py",
+		"/C/Users/bglat/Desktop/bag3318.github.io/assets/css/main1.css",
+		"/C/Users/bglat/Desktop/bag3318.github.io/_sass/minimal-mistakes.scss",
+		"/C/Users/bglat/Desktop/bag3318.github.io/_pages/en_US/404.txt",
+		"/C/Users/bglat/Desktop/bag3318.github.io/_pages/en_US/donate.txt",
+		"/C/Users/bglat/Desktop/bag3318.github.io/_pages/en_US/buildinfo.txt",
+		"/C/Users/bglat/Desktop/bag3318.github.io/_pages/en_US/Site-Navigation.txt",
+		"/C/Users/bglat/Desktop/bag3318.github.io/_pages/en_US/about.txt",
+		"/C/Users/bglat/Desktop/bag3318.github.io/_pages/en_US/gallery.txt",
+		"/C/Users/bglat/Desktop/bag3318.github.io/_pages/en_US/goals.txt",
+		"/C/Users/bglat/Desktop/bag3318.github.io/_pages/en_US/Home.txt",
+		"/C/Users/bglat/Desktop/bag3318.github.io/_data/navigation.yml",
+		"/C/Users/bglat/Desktop/bag3318.github.io/package.json",
+		"/C/Users/bglat/Desktop/bag3318.github.io/assets/js/plugins/jquery.greedy-navigation.js",
+		"/C/Users/bglat/Desktop/bag3318.github.io/_includes/head.html",
+		"/C/Users/bglat/Desktop/bag3318.github.io/_includes/masthead.html",
+		"/C/Users/bglat/Desktop/bag3318.github.io/_includes/footer.html",
+		"/C/Users/bglat/Desktop/bag3318.github.io/_data/navigation/en_US.yml",
+		"/C/Users/bglat/Desktop/bag3318.github.io/_sass/_navigation.scss",
+		"/C/Users/bglat/Desktop/bag3318.github.io/_sass/_masthead.scss",
+		"/C/Users/bglat/Desktop/bag3318.github.io/_pages/en_US/roster.txt",
+		"/C/Users/bglat/Desktop/bag3318.github.io/config.ru",
+		"/C/Users/bglat/Desktop/bag3318.github.io/_config.yml",
+		"/C/Users/bglat/Desktop/Finder/scripts/birthstone.js",
+		"/C/Users/bglat/Desktop/Finder/scripts/zodiac.js",
+		"/C/Users/bglat/Documents/Zodiac Signs.htm",
+		"/C/Users/bglat/Documents/Birthstones.htm",
+		"/C/Users/bglat/Documents/Birthstones.html",
+		"/C/Users/bglat/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/bglat/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings"
+	],
+	"find":
+	{
+		"height": 54.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lib/Constants.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1010,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								216,
+								273
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 54.0
+	},
+	"input":
+	{
+		"height": 110.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 244.0
+	},
+	"output.git-push":
+	{
+		"height": 244.0
+	},
+	"pinned_build_system": "",
+	"project": "rps.sublime-project",
+	"replace":
+	{
+		"height": 100.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 704.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
