@@ -1,7 +1,7 @@
 Gem::Specification.new do |spec| 
-  spec.name                             = "rps"
-  spec.version                          = "0.0.1"
-  spec.date                             = "2017-10-10"
+  spec.name                             = "rpsg"
+  spec.version                          = "0.0.2"
+  spec.date                             = "2017-10-11"
   spec.summary                          = "A Rock Paper Scissors Game Ruby Gem"
   spec.description                      = <<-EOF 
     A Ruby-programmed rock paper scissors game. 
@@ -15,24 +15,20 @@ Gem::Specification.new do |spec|
     Thanks for installing! I hope you will have fun playing rock paper scissors! :)
   EOF
   spec.license                          = "MIT"
-  # spec.homepage                         = "https://bag3318.github.io/RockPaperScissors/"
   spec.required_ruby_version            = ">= 2.0.0"
   spec.required_rubygems_version        = ">= 2.6.0"
   # spec.extra_rdoc_files                 = "README.md"
-  # spec.cert_chain                       = ["./certs/gem-public_cert.pem"]
-  # spec.signing_key                      = File.expand_path("~/.ssh/gem-private_key.pem") if $0 =~ /gem\z/
   spec.bindir                           = "bin"
-  # spec.metadata                         = { 
-  #   "issue_tracker" => "https://github.com/bag3318/RockPaperScissors/issues"  , 
-  #   "source_code"   => "https://github.com/bag3318/RockPaperScissors"         , 
-  #   "releases"      => "https://github.com/bag3318/RockPaperScissors/releases",
-  #   "website"       => "https://bag3318.github.io/RockPaperScissors/"
-  # }
   spec.executables                     << "rps"
   spec.requirements                    << "A Windows or Mac computer"
-  spec.add_runtime_dependency "bundler" , "~> 1.14.6"
-  spec.add_runtime_dependency "colorize", "~> 0.8.1"
-  spec.add_runtime_dependency "rake"    , "~> 12.0.0"
-  spec.add_runtime_dependency "rvm"     , "~> 1.11.3.9"
-  spec.add_development_dependency "rdoc", "~> 5.1.0"
+  # spec.add_runtime_dependency "bundler" , "~> 1.14.6"
+  # spec.add_runtime_dependency "colorize", "~> 0.8.1"
+  # spec.add_runtime_dependency "rake"    , "~> 12.0.0"
+  # spec.add_runtime_dependency "rvm"     , "~> 1.11.3.9"
+  # spec.add_development_dependency "rdoc", "~> 5.1.0"
+  spec.add_runtime_dependency "bundler" 
+  spec.add_runtime_dependency "colorize"
+  spec.add_runtime_dependency "rake"    
+  spec.add_runtime_dependency "rvm"     
+  spec.add_development_dependency "rdoc"
 end
