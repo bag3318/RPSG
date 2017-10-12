@@ -11,12 +11,9 @@
 
 class RPS
 
-  require_relative "./../lib/rps/version.rb"
+  require_relative "./../lib/Requisites.rb"
 
-  # intiate the colorize gem
-  require "colorized_string"
-  ColorizedString.colors   
-  ColorizedString.modes  
+  require_relative "./../lib/rps/version.rb"
 
   require_relative "./../lib/Constants.rb"
 
@@ -39,33 +36,33 @@ class RPS
 
   def play(winning_score) 
     while @player_score < winning_score && @computer_score < winning_score 
-      puts ColorizedString["Player score: #{@player_score}, "].colorize(:blue) + 
-           ColorizedString["Computer score: #{@computer_score}, Ties: #{@ties}."].colorize(:blue) 
+      puts"Player score: #{@player_score}, ".color(Colors::RED) + 
+          "Computer score: #{@computer_score}, Ties: #{@ties}.".color(Colors::RED)
       player = PrivateMethods.player_choice 
       computer = Constants::COMPUTER_CHOICES.sample # chooses a random option
-      puts ColorizedString["\nPlayer chooses #{player.to_s.downcase}."].colorize(:blue) 
-      puts ColorizedString["Computer chooses #{computer.to_s.downcase}."].colorize(:blue)
+      puts"\nPlayer chooses #{player.to_s.downcase}.".color(Colors::GREEN) 
+      puts"Computer chooses #{computer.to_s.downcase}.".color(Colors::GREEN) 
       case PrivateMethods.player_outcome [player, computer] 
       when :WIN
-        puts ColorizedString["#{player.to_s.capitalize} beats #{computer.to_s.downcase}, player wins the round."].colorize(:red) 
+        puts"#{player.to_s.capitalize} beats #{computer.to_s.downcase}, player wins the round.".color(Colors::YELLOW)  
         @player_score += 1
       when :LOSE
-        puts ColorizedString["#{computer.to_s.capitalize} beats #{player.to_s.downcase}, computer wins the round."].colorize(:red)
+        puts"#{computer.to_s.capitalize} beats #{player.to_s.downcase}, computer wins the round.".color(Colors::YELLOW) 
         @computer_score += 1 
       else 
-        puts ColorizedString["Tie, choose again"].colorize(:red) 
+        puts"Tie, choose again".color(Colors::YELLOW) 
         @ties += 1
       end
     end
-    puts ColorizedString["\nFinal score: player: #{@player_score}, "].colorize(:blue) +
-         ColorizedString["computer: #{@computer_score} (ties: #{@ties})."].colorize(:blue) 
+    puts"\nFinal score: player: #{@player_score}, ".color(Colors::DARKCYAN) +
+        "computer: #{@computer_score} (ties: #{@ties}).".color(Colors::DARKCYAN) 
     case PrivateMethods.final_outcome(@player_score, @computer_score)
     when :WIN 
-      puts ColorizedString["Player wins!"].colorize(:red) 
+      puts"Player wins!".color(Colors::RED) 
     when :LOSE
-      puts ColorizedString["Computer wins!"].colorize(:red)
+      puts"Computer wins!".color(Colors::RED) 
     else 
-      puts ColorizedString["It's a tie!"].colorize(:red) 
+      puts"It's a tie!".color(Colors::RED) 
     end 
     gets
   end 

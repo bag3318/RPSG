@@ -1,16 +1,13 @@
-require "colorized_string"
-ColorizedString.colors   
-ColorizedString.modes  
 module PrivateMethods
   class << self
     def player_choice
       loop do
-        print ColorizedString["Choose: Rock (r), Paper (p), or Scissors (s): "].colorize(:green)
+        print "Choose: Rock (r), Paper (p), or Scissors (s): ".color(Colors::COLOR1) 
         choice = gets.chomp.downcase
         if Constants::NTRY_TO_SYM.key?(choice)
           return Constants::NTRY_TO_SYM[choice]
         elsif choice != Constants::VALID_ENTRIES
-          puts ColorizedString["That entry is invalid. Please re-enter."].colorize(:red) 
+          puts "That entry is invalid. Please re-enter.".color(Colors::COLOR2)
         else
           return nil
         end
@@ -19,7 +16,7 @@ module PrivateMethods
         # when Constants::NTRY_TO_SYM.key?(choice)
         #   return Constants::NTRY_TO_SYM[choice]
         # when choice != Constants::VALID_ENTRIES
-        #   puts ColorizedString["That entry is invalid. Please re-enter."].colorize(:green) 
+        #   puts "That entry is invalid. Please re-enter." 
         # end
       end 
     end 
