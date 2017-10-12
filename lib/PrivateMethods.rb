@@ -2,12 +2,12 @@ module PrivateMethods
   class << self
     def player_choice
       loop do
-        print "Choose: Rock (r), Paper (p), or Scissors (s): "
+        print "\nChoose: Rock (r), Paper (p), or Scissors (s): \n"
         choice = gets.chomp.downcase
         if Constants::NTRY_TO_SYM.key?(choice)
           return Constants::NTRY_TO_SYM[choice]
         elsif choice != Constants::VALID_ENTRIES
-          puts "That entry is invalid. Please re-enter."
+          puts "That entry is invalid. Please re-enter.\n"
         else
           return nil
         end
@@ -28,7 +28,7 @@ module PrivateMethods
     def final_outcome(pl,co) 
       return :WIN  if pl > co 
       return :LOSE if pl < co
-      # return :TIE  if pl = co 
+      return :TIE  if pl = co 
       # there will never be a tie for the final outcome due to the code in the play() method
     end 
   end
