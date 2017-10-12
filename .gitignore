@@ -5,11 +5,11 @@
 *.sublime-workspace
 *.jekyll-metadata
 *.ste
-*other langs
-*RPS.rb
-*RPS_RAW.rb
-*rps.py
-*bg.py
+other langs
+RPS.rb
+RPS_RAW.rb
+rps.py
+bg.py
 working
 # _site
 # .sass-cache
