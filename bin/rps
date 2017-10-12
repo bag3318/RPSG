@@ -10,10 +10,13 @@
 
 
 class RPS
+  
+  lib = File.expand_path("../../lib", __FILE__)
+  $:.unshift(lib)
 
-  require_relative "./../lib/rps/version.rb"
+  require "rps/version.rb"
 
-  require_relative "./../lib/Constants.rb"
+  require "Constants.rb"
 
   protected_methods :Constants
 
@@ -65,7 +68,7 @@ class RPS
     gets
   end 
 
-  require_relative "./../lib/PrivateMethods.rb"
+  require "PrivateMethods.rb"
   
   private_methods :PrivateMethods
 
