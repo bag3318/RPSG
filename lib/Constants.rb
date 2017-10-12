@@ -1,5 +1,5 @@
 module Constants 
-  CHOICES = [['r', 'rock'], ['p', 'paper'], ['s', 'scissors']]
+  CHOICES = [['r', 'rock'], ['p', 'paper'], ['s', 'scissors']] # create 2d list of choices
   NTRY_TO_SYM = { # define entry to symbol (key to value)
     CHOICES[0][0] => :ROCK    , CHOICES[0][1]     => :ROCK    ,
     CHOICES[1][0] => :PAPER   , CHOICES[1][1]     => :PAPER   ,
