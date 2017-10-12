@@ -30,6 +30,6 @@ How To Use
 2. type the following: `gem install rpsg`
 3. run the following: `rps`
 
-----
+________
 
 RubyGems page: [https://rubygems.org/gems/rpsg](https://rubygems.org/gems/rpsg)
