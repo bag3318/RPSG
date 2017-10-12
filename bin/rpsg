@@ -1,2 +1,4 @@
+#!/usr/bin/env rubyn
+
 load "../lib/Main.rb"
 

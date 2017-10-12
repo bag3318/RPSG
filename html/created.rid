@@ -1,8 +1,8 @@
-Thu, 12 Oct 2017 14:46:58 -0700
+Thu, 12 Oct 2017 14:48:55 -0700
 README.md	Thu, 12 Oct 2017 12:13:30 -0700
 lib/Constants.rb	Thu, 12 Oct 2017 14:19:30 -0700
-lib/Main.rb	Thu, 12 Oct 2017 14:44:17 -0700
+lib/Main.rb	Thu, 12 Oct 2017 14:47:45 -0700
 lib/PrivateMethods.rb	Thu, 12 Oct 2017 13:53:33 -0700
 lib/rpsg/version.rb	Thu, 12 Oct 2017 14:45:39 -0700
-bin/rpsg	Thu, 12 Oct 2017 14:44:52 -0700
+bin/rpsg	Thu, 12 Oct 2017 14:47:49 -0700
 test/rpsg.rb	Thu, 12 Oct 2017 14:13:08 -0700

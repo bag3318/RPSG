@@ -1,5 +1,3 @@
-#!/usr/bin/env rubyn
-
 class RockPaperScissorsGame
   
   lib = File.expand_path("../../lib", __FILE__)
