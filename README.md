@@ -6,8 +6,8 @@ Requirements
 
 ### For Windows
 
-+ Ruby
-- RubyGems
++ Ruby 
+- RubyGems 
 
 ### For Mac
 
