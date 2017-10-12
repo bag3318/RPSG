@@ -5,7 +5,7 @@ module Constants
     CHOICES[1][0] => :PAPER   , CHOICES[1][1]     => :PAPER   ,
     CHOICES[2][0] => :SCISSORS, CHOICES[2][1]     => :SCISSORS
   } 
-  VALID_ENTRIES = NTRY_TO_SYM.keys # create valid entries
+  VALID_ENTRIES = NTRY_TO_SYM.keys # define valid entries
   COMPUTER_CHOICES = NTRY_TO_SYM.values # define computer choices
   WINNERS = [
     # format: player choice, computer choice
