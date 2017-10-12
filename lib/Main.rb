@@ -1,4 +1,4 @@
-# create master class
+# create master class for rpsg
 class RockPaperScissorsGame
   
   require "rpsg/version.rb"
