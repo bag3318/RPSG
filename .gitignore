@@ -1,7 +1,7 @@
 *.DS_Store
 *.gem
 *Gemfile.lock
-# *.sublime-project
+*.sublime-project
 *.sublime-workspace
 *.jekyll-metadata
 *.ste
