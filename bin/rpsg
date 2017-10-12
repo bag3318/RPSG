@@ -9,7 +9,7 @@
 =end
 
 
-class RPSG
+class RockPapaerScissorsGame
   
   lib = File.expand_path("../../lib", __FILE__)
 
@@ -75,4 +75,4 @@ class RPSG
 
 end 
 
-RPSG.new.play(2) # best of 3 (0, 1, 2)
+RockPapaerScissorsGame.new.play(2) # best of 3 (0, 1, 2)
