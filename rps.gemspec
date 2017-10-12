@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec| 
   spec.name                             = "rpsg"
-  spec.version                          = "0.0.4"
+  spec.version                          = "0.0.5"
   spec.date                             = "2017-10-12"
   spec.summary                          = "A Rock Paper Scissors Game Ruby Gem"
   spec.description                      = <<-EOF 
@@ -19,6 +19,10 @@ Gem::Specification.new do |spec|
   spec.required_rubygems_version        = ">= 2.6.0"
   spec.extra_rdoc_files                 = "README.md"
   spec.bindir                           = "bin"
+  spec.metadata                         = { 
+    "issue_tracker" => "https://github.com/bag3318/rpsg/issues"  , 
+    "source_code"   => "https://github.com/bag3318/rpsg"         
+  }
   spec.executables                     << "rps"
   spec.requirements                    << "A Windows or Mac computer"
   spec.add_runtime_dependency "rake"    , "~> 12.0.0"
