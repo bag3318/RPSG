@@ -1,6 +1,6 @@
 #!/usr/bin/env rubyn
 
-class RockPapaerScissorsGame
+class RockPaperScissorsGame
   
   lib = File.expand_path("../../lib", __FILE__)
 
@@ -72,4 +72,4 @@ class RockPapaerScissorsGame
 
 end 
 
-RockPapaerScissorsGame.new.play(2) # best of 3 (0, 1, 2)
+RockPaperScissorsGame.new.play(2) # best of 3 (0, 1, 2)
