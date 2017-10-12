@@ -18,4 +18,8 @@ working
 
 # If gitignore is not working:
 # try this:
+# ======================================================
 # git rm -rf --cached .
+# git add .
+# git commit -m "remove cached files, gitignore"
+# git push
