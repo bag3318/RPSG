@@ -20,12 +20,12 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version            = ">= 2.0.0"
   spec.required_rubygems_version        = ">= 2.6.0"
   spec.extra_rdoc_files                 = "README.md"
-  # spec.bindir                           = "bin"
+  spec.bindir                           = "bin"
   spec.metadata                         = { 
     "issue_tracker" => "https://github.com/bag3318/RPSG/issues", 
     "source_code"   => "https://github.com/bag3318/RPSG"         
   }
-  # spec.executables                     << "rpsg"
+  spec.executables                     << "rpsg"
   spec.requirements                    << "A Windows or Mac computer"
   spec.add_runtime_dependency 'rake'    , '~> 12.0', '>= 12.0.0'
   spec.add_runtime_dependency 'rvm'     , '~> 1.11', '>= 1.11.3.9'

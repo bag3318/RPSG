@@ -1,9 +1,5 @@
 class RockPaperScissorsGame
   
-  lib = File.expand_path("../../lib", __FILE__)
-
-  $:.unshift(lib)
-
   require "rpsg/version.rb"
 
   require "Constants.rb"
