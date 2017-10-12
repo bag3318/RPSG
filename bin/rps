@@ -11,8 +11,6 @@
 
 class RPS
 
-  require_relative "./../lib/Requisites.rb"
-
   require_relative "./../lib/rps/version.rb"
 
   require_relative "./../lib/Constants.rb"
@@ -36,33 +34,33 @@ class RPS
 
   def play(winning_score) 
     while @player_score < winning_score && @computer_score < winning_score 
-      puts"Player score: #{@player_score}, ".color(Colors::RED) + 
-          "Computer score: #{@computer_score}, Ties: #{@ties}.".color(Colors::RED)
+      puts"Player score: #{@player_score}, " + 
+          "Computer score: #{@computer_score}, Ties: #{@ties}."
       player = PrivateMethods.player_choice 
       computer = Constants::COMPUTER_CHOICES.sample # chooses a random option
-      puts"\nPlayer chooses #{player.to_s.downcase}.".color(Colors::GREEN) 
-      puts"Computer chooses #{computer.to_s.downcase}.".color(Colors::GREEN) 
+      puts"\nPlayer chooses #{player.to_s.downcase}." 
+      puts"Computer chooses #{computer.to_s.downcase}." 
       case PrivateMethods.player_outcome [player, computer] 
       when :WIN
-        puts"#{player.to_s.capitalize} beats #{computer.to_s.downcase}, player wins the round.".color(Colors::YELLOW)  
+        puts"#{player.to_s.capitalize} beats #{computer.to_s.downcase}, player wins the round."  
         @player_score += 1
       when :LOSE
-        puts"#{computer.to_s.capitalize} beats #{player.to_s.downcase}, computer wins the round.".color(Colors::YELLOW) 
+        puts"#{computer.to_s.capitalize} beats #{player.to_s.downcase}, computer wins the round." 
         @computer_score += 1 
       else 
-        puts"Tie, choose again".color(Colors::YELLOW) 
+        puts"Tie, choose again" 
         @ties += 1
       end
     end
-    puts"\nFinal score: player: #{@player_score}, ".color(Colors::DARKCYAN) +
-        "computer: #{@computer_score} (ties: #{@ties}).".color(Colors::DARKCYAN) 
+    puts"\nFinal score: player: #{@player_score}, " +
+        "computer: #{@computer_score} (ties: #{@ties})." 
     case PrivateMethods.final_outcome(@player_score, @computer_score)
     when :WIN 
-      puts"Player wins!".color(Colors::RED) 
+      puts"Player wins!" 
     when :LOSE
-      puts"Computer wins!".color(Colors::RED) 
+      puts"Computer wins!" 
     else 
-      puts"It's a tie!".color(Colors::RED) 
+      puts"It's a tie!" 
     end 
     gets
   end 

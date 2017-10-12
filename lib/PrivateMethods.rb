@@ -2,12 +2,12 @@ module PrivateMethods
   class << self
     def player_choice
       loop do
-        print "Choose: Rock (r), Paper (p), or Scissors (s): ".color(Colors::COLOR1) 
+        print "Choose: Rock (r), Paper (p), or Scissors (s): "
         choice = gets.chomp.downcase
         if Constants::NTRY_TO_SYM.key?(choice)
           return Constants::NTRY_TO_SYM[choice]
         elsif choice != Constants::VALID_ENTRIES
-          puts "That entry is invalid. Please re-enter.".color(Colors::COLOR2)
+          puts "That entry is invalid. Please re-enter."
         else
           return nil
         end

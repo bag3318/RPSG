@@ -15,8 +15,8 @@ module Constants
   ] 
   LOSERS = WINNERS.map { |winning_choice,losing_choice| [losing_choice,winning_choice] } # this will take the original WINNERS array and flip the symbols, thus returning a loss for the user/player
   INIT_STRINGS = [
-    "You are about to enter a rock-paper-scissors best of 3 match.".color(Colors::DARKGREEN), 
-    "Press the return/enter key to continue...".color(Colors::DARKGREEN), 
+    "You are about to enter a rock-paper-scissors best of 3 match.", 
+    "Press the return/enter key to continue...", 
     ""
   ]
 end
