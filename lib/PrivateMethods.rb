@@ -1,5 +1,7 @@
+# add module for private methods for the rpsg calculations
 module PrivateMethods
   class << self
+    # make a definition that asks for the players choice
     def player_choice
       loop do
         print "\nChoose: Rock (r), Paper (p), or Scissors (s): \n"
@@ -20,11 +22,13 @@ module PrivateMethods
         # end
       end 
     end 
+    # define outcomes of players choice against cpu
     def player_outcome(plays)
       return :WIN  if Constants::WINNERS.include?(plays)
       return :LOSE if Constants::LOSERS.include?(plays)
       return :TIE  if !:WIN | !:LOSE
     end 
+    # define final outcome that gives the result of who one the whole match
     def final_outcome(pl,co) 
       return :WIN  if pl > co 
       return :LOSE if pl < co

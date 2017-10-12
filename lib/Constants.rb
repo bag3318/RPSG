@@ -1,22 +1,30 @@
+# create module that holds all contents for this script
 module Constants 
-  CHOICES = [['r', 'rock'], ['p', 'paper'], ['s', 'scissors']] # create 2d list of choices
-  NTRY_TO_SYM = { # define entry to symbol (key to value)
+  
+  # create 2d list of choices
+  CHOICES = [['r', 'rock'], ['p', 'paper'], ['s', 'scissors']] 
+
+  # define entry to symbol (key to value)
+  NTRY_TO_SYM = { 
     CHOICES[0][0] => :ROCK    , CHOICES[0][1]     => :ROCK    ,
     CHOICES[1][0] => :PAPER   , CHOICES[1][1]     => :PAPER   ,
     CHOICES[2][0] => :SCISSORS, CHOICES[2][1]     => :SCISSORS
   } 
-  VALID_ENTRIES = NTRY_TO_SYM.keys # define valid entries
-  COMPUTER_CHOICES = NTRY_TO_SYM.values # define computer choices
+
+  # define valid entries
+  VALID_ENTRIES = NTRY_TO_SYM.keys 
+
+  # define computer choices
+  COMPUTER_CHOICES = NTRY_TO_SYM.values 
+
+  # create winners 2d list array with format: winning choice, losing choice
   WINNERS = [
-    # format: player choice, computer choice
     [:SCISSORS, :PAPER   ], 
     [:PAPER   , :ROCK    ], 
     [:ROCK    , :SCISSORS]
   ] 
-  LOSERS = WINNERS.map { |winning_choice,losing_choice| [losing_choice,winning_choice] } # this will take the original WINNERS array and flip the symbols, thus returning a loss for the user/player
-  INIT_STRINGS = [
-    "You are about to enter a rock-paper-scissors best of 3 match.", 
-    "Press the return/enter key to continue...", 
-    ""
-  ]
+
+  # this will take the original WINNERS array and flip the symbols, thus returning a loss for the user/player
+  LOSERS = WINNERS.map { |winning_choice,losing_choice| [losing_choice,winning_choice] } 
+
 end

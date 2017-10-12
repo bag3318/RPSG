@@ -1,12 +1,4 @@
-#!/usr/bin/env ruby
-
-=begin
-|====================================|
-| Req Ruby Ver | Req Ruby Gems Ver   |
-|--------------|---------------------|
-| >= v2.0.0    | >= v2.6.0           |
-|====================================|
-=end
+#!/usr/bin/env rubyn
 
 class RockPapaerScissorsGame
   
@@ -21,6 +13,7 @@ class RockPapaerScissorsGame
   protected_methods :Constants
 
   class << self
+    # add continue method for asking the user if they want to play rock paper scissors
     def continue(str1,str2,str3)
       puts  str1 
       print str2
@@ -29,13 +22,18 @@ class RockPapaerScissorsGame
     end 
   end 
 
-  continue(Constants::INIT_STRINGS[0], Constants::INIT_STRINGS[1], Constants::INIT_STRINGS[2])
+  # print out strings
+  continue("You are about to enter a rock-paper-scissors best of 3 match.", "Press the return/enter key to continue...", "")
   
+  # initialize variables
   def initialize
+    # set all equal to zero
     @player_score = @computer_score = @ties = 0 
   end
 
+  # define play method, this will be the main function for playing rock paper scissors
   def play(winning_score) 
+    # make while loop
     while @player_score < winning_score && @computer_score < winning_score 
       puts "Player score: #{@player_score}, " + 
            "Computer score: #{@computer_score}, Ties: #{@ties}.\n"
