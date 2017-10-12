@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.extra_rdoc_files                 = "README.md"
   spec.bindir                           = "bin"
   spec.metadata                         = { 
-    "issue_tracker" => "https://github.com/bag3318/RPSG/issues", 
+    "issue_tracker" => "https://github.com/bag3318/RPSG/issues/", 
     "source_code"   => "https://github.com/bag3318/RPSG"         
   }
   spec.executables                     << "rpsg"
