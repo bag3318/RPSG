@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec| 
   spec.name                             = "rpsg"
-  spec.version                          = "0.1.5"
+  spec.version                          = "0.1.6"
   spec.date                             = "2017-10-12"
   spec.summary                          = "A Rock Paper Scissors Game Ruby Gem"
   spec.description                      = <<-EOF 
@@ -27,8 +27,8 @@ Gem::Specification.new do |spec|
   }
   spec.executables                     << "rpsg"
   spec.requirements                    << "A Windows or Mac computer"
-  spec.add_runtime_dependency 'rake'   , '~> 12.0', '>= 12.0.0'
-  spec.add_runtime_dependency 'rvm'    , '~> 1.11', '>= 1.11.3.9'
-  spec.add_runtime_dependency 'bundler', '~> 1.14', '>= 1.14.6'
-  spec.add_development_dependency 'rdoc', '~> 5.1', '>= 5.1.0'
+  spec.add_runtime_dependency 'rake'    , '~> 12.0', '>= 12.0.0'
+  spec.add_runtime_dependency 'rvm'     , '~> 1.11', '>= 1.11.3.9'
+  spec.add_runtime_dependency 'bundler' , '~> 1.14', '>= 1.14.6'
+  spec.add_development_dependency 'rdoc', '~> 5.1' , '>= 5.1.0'
 end
