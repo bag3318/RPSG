@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec| 
   spec.name                             = "rpsg"
-  spec.version                          = "0.1.3"
+  spec.version                          = "0.1.4"
   spec.date                             = "2017-10-12"
   spec.summary                          = "A Rock Paper Scissors Game Ruby Gem"
   spec.description                      = <<-EOF 
@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email                            = ""
   spec.homepage                         = "https://rubygems.org/gems/rpsg"
   spec.platform                         = Gem::Platform::RUBY
-  spec.require_paths                    = ["lib"]
+  spec.require_paths                    = ["lib", "bin"]
   spec.files                            = `git ls-files -z`.split("\x0")
   spec.post_install_message             = <<-EOF
     Thanks for installing! I hope you will have fun playing rock paper scissors! :)
