@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.license                          = "MIT"
   spec.required_ruby_version            = ">= 2.0.0"
   spec.required_rubygems_version        = ">= 2.6.0"
-  spec.extra_rdoc_files                 = "html/PlayRockPaperScissorsGame.html"
+  spec.extra_rdoc_files                 = ""
   spec.bindir                           = "bin"
   spec.metadata                         = { 
     "issue_tracker" => "https://github.com/bag3318/RPSG/issues", 
@@ -30,4 +30,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'rake'   , '~> 12.0', '>= 12.0.0'
   spec.add_runtime_dependency 'rvm'    , '~> 1.11', '>= 1.11.3.9'
   spec.add_runtime_dependency 'bundler', '~> 1.14', '>= 1.14.6'
+  spec.add_development_dependency "rdoc", "~> 5.1.0"
 end
