@@ -59,11 +59,11 @@ class RockPaperScissorsGame
       puts "\nIt's a tie!" 
     end 
     gets
-  end 
+  end
 
   require "PrivateMethods.rb"
   
-  private_methods :PrivateMethods
+  # private_methods :PrivateMethods
 
 end 
 
