@@ -8,6 +8,8 @@ Gem::Specification.new do |spec|
     Now you can play rock paper scissors on your computer whenever you'd like! :)
   EOF
   spec.author                           = "bag3318"
+  spec.email                            = ""
+  spec.homepage                         = "https://rubygems.org/gems/rpsg"
   spec.platform                         = Gem::Platform::RUBY
   spec.require_paths                    = ["lib"]
   spec.files                            = `git ls-files -z`.split("\x0")
