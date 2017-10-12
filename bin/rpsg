@@ -9,7 +9,7 @@
 =end
 
 
-class RPS
+class RPSG
   
   lib = File.expand_path("../../lib", __FILE__)
 
@@ -75,4 +75,4 @@ class RPS
 
 end 
 
-RPS.new.play(2) # best of 3
+RPSG.new.play(2) # best of 3 (0, 1, 2)

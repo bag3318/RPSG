@@ -1,6 +1,6 @@
 task :default => :test
 
-file_path = "./test/rps.rb"
+file_path = "./test/rpsg.rb"
 
 task :test do 
 	ruby file_path
