@@ -8,7 +8,6 @@ task :test do
 	ruby file_path
 end
 
-
 RDoc::Task.new do |rdoc|
   # rdoc.main = "README.rdoc"
   rdoc.rdoc_files.include("README.md", "lib")
