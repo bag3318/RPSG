@@ -7,7 +7,7 @@ module PrivateMethods
         if Constants::NTRY_TO_SYM.key?(choice)
           return Constants::NTRY_TO_SYM[choice]
         elsif choice != Constants::VALID_ENTRIES
-          puts "That entry is invalid. Please re-enter.\n"
+          puts "\nThat entry is invalid. Please re-enter.\n"
         else
           return nil
         end
