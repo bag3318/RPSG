@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec| 
   spec.name                             = "rpsg"
-  spec.version                          = "0.0.5"
+  spec.version                          = "0.0.6"
   spec.date                             = "2017-10-12"
   spec.summary                          = "A Rock Paper Scissors Game Ruby Gem"
   spec.description                      = <<-EOF 
@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.extra_rdoc_files                 = "README.md"
   spec.bindir                           = "bin"
   spec.metadata                         = { 
-    "issue_tracker" => "https://github.com/bag3318/rpsg/issues"  , 
+    "issue_tracker" => "https://github.com/bag3318/rpsg/issues", 
     "source_code"   => "https://github.com/bag3318/rpsg"         
   }
   spec.executables                     << "rps"
