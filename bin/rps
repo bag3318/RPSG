@@ -12,6 +12,7 @@
 class RPS
   
   lib = File.expand_path("../../lib", __FILE__)
+
   $:.unshift(lib)
 
   require "rps/version.rb"
@@ -74,4 +75,4 @@ class RPS
 
 end 
 
-RPS.new.play(3) # best of 3
+RPS.new.play(2) # best of 3
