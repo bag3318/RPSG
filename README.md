@@ -1,20 +1,30 @@
-How To Use
-==========
+RPSG (Rock Paper Scissors Game)
+===============================
 
-## Requirements
+Requirements
+------------
+
+### For Windows
 
 + Ruby
 - RubyGems
 
-For Windows
------------
+### For Mac
+
++ Ruby
+- RubyGems
+* RVM
+
+How To Use
+----------
+
+### Windows
 
 1. Open `cmd` as non-admin
 2. type the following: `gem install rpsg`
 3. run the following: `rps`
 
-For Mac
--------
+### Mac
 
 1. Open `Terminal`
 2. type the following: `gem install rpsg`
