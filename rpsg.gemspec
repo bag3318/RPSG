@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
     "issue_tracker" => "https://github.com/bag3318/rpsg/issues", 
     "source_code"   => "https://github.com/bag3318/rpsg"         
   }
-  spec.executables                     << "rps"
+  spec.executables                     << "rpsg"
   spec.requirements                    << "A Windows or Mac computer"
   spec.add_runtime_dependency 'rake'   , '~> 12.0', '>= 12.0.0'
   spec.add_runtime_dependency 'rvm'    , '~> 1.11', '>= 1.11.3.9'
