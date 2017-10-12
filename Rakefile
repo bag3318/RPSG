@@ -11,4 +11,5 @@ end
 RDoc::Task.new do |rdoc|
   # rdoc.main = "README.rdoc"
   rdoc.rdoc_files.include("README.md", "lib")
+  rdoc.rdoc_dir = "doc"
 end
