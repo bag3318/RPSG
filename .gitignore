@@ -1,20 +1,10 @@
 *.DS_Store
 *.gem
-*Gemfile.lock
 *.sublime-project
 *.sublime-workspace
-*.jekyll-metadata
 *.ste
-test.rb
-other langs
-# RPS.rb
-RPS_RAW.rb
-rps.py
-bg.py
+Gemfile.lock
 working
-# README.md
-# _site
-# .sass-cache
 
 # If gitignore is not working:
 # try this:
