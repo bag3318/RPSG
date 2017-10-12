@@ -7,7 +7,7 @@
 *.ste
 test.rb
 other langs
-RPS.rb
+# RPS.rb
 RPS_RAW.rb
 rps.py
 bg.py
