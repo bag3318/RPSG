@@ -7,6 +7,9 @@ repository: "bag3318/RPSG"
 port: 1988
 include:
   - index.md
+  - code.md
+  - simple.md
+  - README.md
 exclude:
   - Gemfile
   - Gemfile.lock
