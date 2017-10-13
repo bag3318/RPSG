@@ -18,4 +18,3 @@ RDoc::Task.new do |rdoc|
   rdoc.rdoc_dir = "doc"
   rdoc.title = "RPSG RDocs"
 end
-
