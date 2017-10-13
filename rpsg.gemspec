@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   EOF
   spec.author                           = "bag3318"
   spec.email                            = "disclosed"
-  spec.homepage                         = "https://github.com/bag3318/RPSG"
+  spec.homepage                         = "https://bag3318.github.io/RPSG"
   spec.platform                         = Gem::Platform::RUBY
   spec.require_paths                    = ["lib"]
   spec.files                            = `git ls-files -z`.split("\x0")
@@ -23,7 +23,8 @@ Gem::Specification.new do |spec|
   spec.extra_rdoc_files                 = ["README.md"]
   spec.bindir                           = "bin"
   spec.metadata                         = { 
-    "issue_tracker" => "https://github.com/bag3318/RPSG/issues/", 
+    "issue_tracker" => "https://github.com/bag3318/RPSG/issues",
+    "source_code"   => "https://github.com/bag3318/RPSG" 
   }
   spec.executables                     << "rpsg"
   spec.requirements                    << "A Windows or Mac computer"
