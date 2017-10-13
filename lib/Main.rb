@@ -22,7 +22,7 @@ class RockPaperScissorsGame
   
   # initialize variables
   def initialize
-    # set all equal to zero
+    # initialize variables and set all equal to zero
     @player_score = @computer_score = @ties = 0 
   end
 
