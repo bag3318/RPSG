@@ -3,6 +3,7 @@ description: A Ruby Programmed Rock Paper Scissors Game
 show_downloads: true
 google_analytics: false
 theme: jekyll-theme-cayman # important
+url: "https://bag3318.github.io/RPSG"
 repository: "bag3318/RPSG"
 port: 1988
 include:

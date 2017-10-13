@@ -12,21 +12,15 @@ tite: "Master Code"
 #!/usr/bin/env ruby
 
 =begin
-|====================================|
-| Req Ruby Ver | Req Ruby Gems Ver   |
-|--------------|---------------------|
-| >= v2.0.0    | >= v2.6.0           |
-|====================================|
+|==============|
+| Req Ruby Ver |
+|--------------|
+| >= v2.0.0    |
+|==============|
 =end
 
 # create master class for rpsg
 class RockPaperScissorsGame
-
-	# specify the version for the rubygem
-	module RPSG
-		# create version constant for the rubygem
-		VERSION = "0.2.7" 
-	end  
 
   # create module that holds all contents for this script
   module Constants 
