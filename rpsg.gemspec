@@ -24,7 +24,6 @@ Gem::Specification.new do |spec|
   spec.bindir                           = "bin"
   spec.metadata                         = { 
     "issue_tracker" => "https://github.com/bag3318/RPSG/issues/", 
-    "source_code"   => "https://github.com/bag3318/RPSG/"         
   }
   spec.executables                     << "rpsg"
   spec.requirements                    << "A Windows or Mac computer"
