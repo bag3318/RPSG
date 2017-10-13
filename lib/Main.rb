@@ -67,4 +67,4 @@ class RockPaperScissorsGame
 
 end 
 
-RockPaperScissorsGame.new.play(2) # best of 3 (0, 1, 2)
+RockPaperScissorsGame.new.play(2) # best of 3
