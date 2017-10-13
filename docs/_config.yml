@@ -14,7 +14,7 @@ exclude:
   - thumbnail.png
   - LICENSE
   - script
-gems: 
+plugins:  # gems:
   - github-pages
 # Sass/SCSS
 sass:
