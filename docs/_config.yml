@@ -4,14 +4,9 @@ show_downloads: true
 google_analytics: false
 theme: jekyll-theme-cayman # important
 repository: "bag3318/RPSG"
+port: 1988
 include:
   - index.md
-  - How_to_Run.md
-  - Code.md
-  - Comparing_Code.md
-  - Testing.md
-  - How_to_Build.md
-  - about.md
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -19,7 +14,6 @@ exclude:
   - thumbnail.png
   - LICENSE
   - script
-  - other_langs.md
 gems: 
   - github-pages
 # Sass/SCSS
