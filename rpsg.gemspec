@@ -2,7 +2,7 @@ Gem::Specification.new do |spec|
   spec.name                             = "rpsg"
   spec.version                          = "0.2.5"
   spec.date                             = "2017-10-13"
-  spec.summary                          = "A Rock Paper Scissors Game Ruby Gem"
+  spec.summary                          = "A Rock Paper Scissors Game RubyGem"
   spec.description                      = <<-EOF 
     A Ruby-programmed rock paper scissors game. 
     Now you can play rock paper scissors on your computer whenever you'd like! :)
