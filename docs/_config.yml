@@ -14,6 +14,8 @@ show_downloads: true
 plugins:
   - jekyll-paginate
 
+theme: jekyll-theme-cayman
+baseurl: /jekyll-cayman-theme
 #Others
 markdown: kramdown
 
@@ -38,8 +40,3 @@ include:
 destination:  ./_site
 layouts_dir:  _layouts
 includes_dir: _includes
-defaults:
-  -
-    values:
-      layout: "default"
-      author: "bag3318"
