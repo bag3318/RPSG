@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec| 
   spec.name                             = "rpsg"
-  spec.version                          = "0.2.5"
+  spec.version                          = "0.2."
   spec.date                             = "2017-10-13"
   spec.summary                          = "A Rock Paper Scissors Game Ruby Gem"
   spec.description                      = <<-EOF 
@@ -30,8 +30,8 @@ Gem::Specification.new do |spec|
   # spec.rdoc_options << '--title' << 'Rake -- Ruby Make' <<
   # '--main' << 'README' <<
   # '--line-numbers'
-  spec.add_runtime_dependency 'rake'    , '~> 12.0', '>= 12.0.0'
-  spec.add_runtime_dependency 'rvm'     , '~> 1.11', '>= 1.11.3.9'
   spec.add_runtime_dependency 'bundler' , '~> 1.14', '>= 1.14.6'
+  spec.add_runtime_dependency 'rake'    , '~> 12.0', '>= 12.0.0'
   spec.add_runtime_dependency 'rdoc'    , '~> 5.1' , '>= 5.1.0'
+  spec.add_runtime_dependency 'rvm'     , '~> 1.11', '>= 1.11.3.9'
 end
