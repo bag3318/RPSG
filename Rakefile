@@ -1,6 +1,6 @@
 require 'rdoc/task'
 
-task :default => :test
+# task :default => :test
 
 file_path = "./test/rpsg.rb"
 
