@@ -28,6 +28,9 @@ Gem::Specification.new do |spec|
   }
   spec.executables                     << "rpsg"
   spec.requirements                    << "A Windows or Mac computer"
+  # spec.rdoc_options << '--title' << 'Rake -- Ruby Make' <<
+  # '--main' << 'README' <<
+  # '--line-numbers'
   spec.add_runtime_dependency 'rake'    , '~> 12.0', '>= 12.0.0'
   spec.add_runtime_dependency 'rvm'     , '~> 1.11', '>= 1.11.3.9'
   spec.add_runtime_dependency 'bundler' , '~> 1.14', '>= 1.14.6'
