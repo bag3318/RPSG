@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   EOF
   spec.author                           = "bag3318"
   spec.email                            = "disclosed"
-  spec.homepage                         = "https://rubygems.org/gems/rpsg"
+  spec.homepage                         = "https://github.com/bag3318/RPSG"
   spec.platform                         = Gem::Platform::RUBY
   spec.require_paths                    = ["lib"]
   spec.files                            = `git ls-files -z`.split("\x0")
