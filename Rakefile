@@ -8,7 +8,11 @@ task :test do
 	ruby file_path
 end
 
-task :delgem do
+# task :delgem do
+# 	`DEL rpsg-*.*.*.gem`
+# end
+
+Rake::Task.new do |delgem|
 	`DEL rpsg-*.*.*.gem`
 end
 
