@@ -21,7 +21,7 @@ How To Use
 ### Windows
 
 1. Open `cmd` as non-admin
-	* `cmd` is the `Command Prompt`
+   * `cmd` is the `Command Prompt`
 2. type the following: `gem install rpsg`
 3. run the following: `rpsg`
 
