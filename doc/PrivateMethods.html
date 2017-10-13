@@ -164,7 +164,7 @@
             <pre><span class="ruby-comment"># File lib/PrivateMethods.rb, line 5</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">player_choice</span>
   <span class="ruby-identifier">loop</span> <span class="ruby-keyword">do</span>
-    <span class="ruby-identifier">print</span> <span class="ruby-string">&quot;\nChoose: Rock (r), Paper (p), or Scissors (s): \n&quot;</span>
+    <span class="ruby-identifier">print</span> <span class="ruby-string">&quot;\nChoose: Rock (r), Paper (p), or Scissors (s): &quot;</span>
     <span class="ruby-identifier">choice</span> = <span class="ruby-identifier">gets</span>.<span class="ruby-identifier">chomp</span>.<span class="ruby-identifier">downcase</span>
     <span class="ruby-keyword">if</span> <span class="ruby-constant">Constants</span><span class="ruby-operator">::</span><span class="ruby-constant">NTRY_TO_SYM</span>.<span class="ruby-identifier">key?</span>(<span class="ruby-identifier">choice</span>)
       <span class="ruby-keyword">return</span> <span class="ruby-constant">Constants</span><span class="ruby-operator">::</span><span class="ruby-constant">NTRY_TO_SYM</span>[<span class="ruby-identifier">choice</span>]

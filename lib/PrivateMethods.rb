@@ -4,7 +4,7 @@ module PrivateMethods
     # make a definition that asks for the players choice
     def player_choice
       loop do
-        print "\nChoose: Rock (r), Paper (p), or Scissors (s): \n"
+        print "\nChoose: Rock (r), Paper (p), or Scissors (s): "
         choice = gets.chomp.downcase
         if Constants::NTRY_TO_SYM.key?(choice)
           return Constants::NTRY_TO_SYM[choice]
