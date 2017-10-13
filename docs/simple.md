@@ -1,0 +1,38 @@
+---
+layout: default
+title: "Simple Code"
+permalink: /simple.html
+---
+
+> This is what a beginner's RPS code might look like
+
+{% highlight ruby %}
+options = ["rock", "paper", "scissors"]
+computer_choice = options[rand(options.length)] 
+puts "What's your choice?"
+puts "rock, paper, or scissors"
+user_input = gets.chomp.downcase # read user input and convert to lower case
+loop do 
+  if (user_input == "rock" || user_input == "paper" || user_input == "scissors")
+    if (user_input == computer_choice)
+      puts "We got the same, let's keep playing!"
+    elsif (user_input == "rock" && computer_choice == "scissors")
+      puts "computer choice is: " + computer_choice + ", you win! :)"
+    elsif (user_input == "rock" && computer_choice == "paper")
+      puts "computer choice is: " + computer_choice + ", computer wins :("
+    elsif (user_input == "paper" && computer_choice == "scissors")
+      puts "computer choice is: " + computer_choice + ", computer wins :("
+    elsif (user_input == "paper" && computer_choice == "rock")
+      puts "computer choice is: " + computer_choice + ", you win! :)"
+    elsif (user_input == "scissors" && computer_choice == "rock")
+      puts "computer choice is: " + computer_choice + ", computer wins :("
+    elsif (user_input == "scissors" && computer_choice == "paper")
+      puts "computer choice is: " + computer_choice + ", you win! :)"
+    end
+  else
+    puts "Invalid choice, enter Rock, Paper, or Scissors"
+  end
+  break
+end
+{% endhighlight %}
+
