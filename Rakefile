@@ -14,6 +14,7 @@ end
 
 RDoc::Task.new do |rdoc|
   # rdoc.main = "README.rdoc"
+  `RMDIR /S /Q "doc"` 
   rdoc.rdoc_files.include("lib")
   rdoc.rdoc_dir = "doc"
   rdoc.title = "RPSG RDocs"

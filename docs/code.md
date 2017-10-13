@@ -25,7 +25,7 @@ class RockPaperScissorsGame
 	# specify the version for the rubygem
 	module RPSG
 		# create version constant for the rubygem
-		VERSION = "0.2.6" 
+		VERSION = "0.2.7" 
 	end  
 
   # create module that holds all contents for this script
