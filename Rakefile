@@ -12,6 +12,14 @@ task :delgem do
 	`DEL rpsg-*.*.*.gem`
 end
 
+task :serve do 
+	`bundle exec jekyll serve`
+end 
+
+task :build do
+	`bundle exec jekyll build`
+end
+
 RDoc::Task.new do |rdoc|
   # rdoc.main = "README.rdoc"
   `RMDIR /S /Q "doc"` 
