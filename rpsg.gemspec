@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec| 
   spec.name                             = "rpsg"
-  spec.version                          = "0.2.2"
+  spec.version                          = "0.2.3"
   spec.date                             = "2017-10-12"
   spec.summary                          = "A Rock Paper Scissors Game Ruby Gem"
   spec.description                      = <<-EOF 
@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
     Now you can play rock paper scissors on your computer whenever you'd like! :)
   EOF
   spec.author                           = "bag3318"
-  spec.email                            = ""
+  spec.email                            = "disclosed"
   spec.homepage                         = "https://rubygems.org/gems/rpsg"
   spec.platform                         = Gem::Platform::RUBY
   spec.require_paths                    = ["lib"]
@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.bindir                           = "bin"
   spec.metadata                         = { 
     "issue_tracker" => "https://github.com/bag3318/RPSG/issues/", 
-    "source_code"   => "https://github.com/bag3318/RPSG"         
+    "source_code"   => "https://github.com/bag3318/RPSG/"         
   }
   spec.executables                     << "rpsg"
   spec.requirements                    << "A Windows or Mac computer"
