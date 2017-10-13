@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.require_paths                    = ["lib"]
   spec.files                            = `git ls-files -z`.split("\x0")
   spec.post_install_message             = <<-EOF
-    Thanks for installing! 
+    Thanks for installing my RPSG gem! 
     I hope you will have fun playing rock paper scissors! :)
   EOF
   spec.license                          = "MIT"
