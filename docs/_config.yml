@@ -1,32 +1,28 @@
-# Setup
-title:        RPSG
-tagline:      Rock Paper Scissors Game
-baseurl:      ""
-paginate:     1
+title: Play Rock Paper Scissors Game
+description: A Ruby Programmed Rock Paper Scissors Game
 show_downloads: true
-
-# About/contact
-# author:
-#   name:       Author name
-#   url:        http://yourhomepage.com 
-
-# Gems
-plugins:
-  - jekyll-paginate
-
-theme: jekyll-theme-cayman
-baseurl: /jekyll-cayman-theme
-#Others
-markdown: kramdown
-
-# defaults:
-#   # _pages
-#   - scope:
-#       path: "_pages/Home.txt"
-#       type: pages
-#     values:
-#       layout: single
-#       author_profile: false
+google_analytics: false
+theme: jekyll-theme-cayman # important
+repository: "bag3318/RPSG"
+include:
+  - index.md
+  - How_to_Run.md
+  - Code.md
+  - Comparing_Code.md
+  - Testing.md
+  - How_to_Build.md
+  - about.md
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - jekyll-theme-cayman.gemspec
+  - thumbnail.png
+  - LICENSE
+  - script
+  - other_langs.md
+gems: 
+  - github-pages
+# Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
@@ -40,3 +36,8 @@ include:
 destination:  ./_site
 layouts_dir:  _layouts
 includes_dir: _includes
+defaults:
+  -
+    values:
+      layout: "default"
+      author: "bag3318"
