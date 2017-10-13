@@ -2,7 +2,7 @@ require 'rdoc/task'
 
 # task :default => :test
 
-file_path = "./test/rpsg.rb"
+file_path = "./test/test_rpsg.rb"
 
 task :test do 
 	ruby file_path
