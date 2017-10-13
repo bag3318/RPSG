@@ -13,7 +13,7 @@ Requirements
 
 + Ruby
 - RubyGems
-* RVM
+* RVM (Ruby Version Manager)
 
 How To Use
 ----------
