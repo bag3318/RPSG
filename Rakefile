@@ -8,11 +8,27 @@ task :test do
 	ruby file_path
 end
 
+# for Windows
 task :delgem do
+	# this deletes any `.gem` file in current direcotry on Windows
 	`DEL rpsg-*.*.*.gem`
 end
 
+# for Mac
+task :delgemosx do 
+	# this deletes any `.gem` in current directory on Mac
+	`rm -Rf rpsg-*.*.*.gem`
+end
+
+# for Mac 
+task :deldocosx do 
+	# this deletes the `doc` folder in the current directory
+	`rm -Rf doc`
+end 
+
+# for Windows
 task :deldoc do
+	# this deletes the `doc` folder in the current directory
 	`RMDIR /S /Q "doc"` 
 end
 
