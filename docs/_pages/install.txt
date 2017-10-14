@@ -1,0 +1,107 @@
+---
+layout: default
+title: "How to Install - RPSG"
+permalink: /install.html
+---
+
+# Install Guide
+
+> This guide will tell you how to install everything that is needed for using my **`RPSG`** gem.
+
+## For Mac/OSX
+
+__What you will install:__
+
+1. Ruby 
+2. RubyGems
+3. Homebrew
+4. RVM
+5. XCode Command Line Tools
+5. RPSG (my RubyGem)
+
+### Useful Skills:
+
+#### To open the `Terminal`:
+
+1. Press <kbd>Command</kbd> + <kbd>Space</kbd>
+2. Type in `Terminal`
+3. Press <kbd>Return</kbd>
+
+#### To Copy:
+
+1. Press <kbd>Command</kbd> + <kbd>C</kbd>
+
+#### To Paste
+
+1. Press <kbd>Command</kbd> + <kbd>V</kbd>
+
+### Step 1 - Installing XCode Command Line Tools
+
+1. Open `Terminal` and copy/paste this: `sudo xcode-select --install` and hit <kbd>Return</kbd>
+2. You might need to enter your password a few times
+
+### Step 2 - Installing Homebrew
+
+1. In the `Terminal`, copy/paste this: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`, and hit <kbd>Return</kbd>
+2. You might need to enter your password
+
+### Step 3 - Installing RVM/Ruby/RubyGems
+
+1. In the `Terminal`, copy/paste this: `\curl -sSL https://get.rvm.io | bash -s stable --ruby` and hit <kbd>Return</kbd>
+2. You might need to enter your password
+
+### Step 4 - Installing RPSG
+
+1. Close `Terminal` by pressing <kbd>Command</kbd> + <kbd>Q</bkd>
+2. Open `Terminal` again
+3. Type in the following: `gem install rpsg`, then hit <kbd>Return</kbd>
+
+### Step 5 - Running RPSG
+
+1. Whenever you want to play Rock Paper Scissors, just open `Terminal` and type in: `rpsg`, then hit <kbd>Return</kbd>
+
+## For Windows
+
+__What you will install:__
+
+1. Ruby
+2. RubyGems
+3. RPSG (my RubyGem)
+
+### Usefull Skills
+
+#### Opening the Command Prompt
+
+1. Press <kbd>Windows</kbd> + <kbd>R</kbd>
+2. Type in `cmd`
+3. Press <kbd>Enter</kbd>
+
+#### To Copy:
+
+1. Press <kbd>Control</kbd> + <kbd>C</kbd>
+
+#### To Paste
+
+1. Press <kbd>Control</kbd> + <kbd>V</kbd>
+
+### Step 1 - Downloading Ruby Installer
+
+1. Open a Web Browser
+	* Web Browser ex: Chrome, Firefox, IE, Safari, Edge, Opera, etc...
+2. Copy/paste this into the browser's URL bar `https://rubyinstaller.org/downloads/`
+3. Press <kbd>Enter</kbd>
+4. Downoad the appropriate installer
+
+### Step 2 - Installing Ruby & RubyGems
+
+1. Open the `rubyinstaller.exe` (may be named differently for you)
+2. Proceed with the installation
+
+### Step 3 - Installing RPSG
+
+1. Open the `Command Prompt`
+2. Type in the following: `gem install rpsg`
+
+### Step 4 - Running RPSG
+
+1. Any time you would like to play rock paper scissors, just open the `Command Prompt` and type in: `rpsg` and hit <kbd>enter</kbd>

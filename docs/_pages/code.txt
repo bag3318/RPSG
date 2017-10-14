@@ -4,15 +4,19 @@ permalink: /code.html
 title: "Master Code - RPSG"
 ---
 
+{::comment}
+contains complete RPSG code
+{:/comment}
+
 # Master Code
 
-> the master code will look like this:
+> The master code will look like this:
 
 ```
 % rpsg
 ```
 
-```ruby
+~~~ruby
 #!/usr/bin/env ruby
 
 =begin
@@ -161,4 +165,4 @@ end
 RockPaperScissorsGame.new.play(2) # best out of 3
 
 $end
-```
+~~~
