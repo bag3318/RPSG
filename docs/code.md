@@ -8,6 +8,10 @@ tite: "Master Code"
 
 > the master code will look like this:
 
+```
+% rpsg
+```
+
 ```ruby
 #!/usr/bin/env ruby
 

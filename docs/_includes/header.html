@@ -2,8 +2,8 @@
   <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
   <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
   {% if site.github.is_project_page %}
-    <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-    <a href="{{ site.github.issues_url }}" class="btn">Report a Bug</a>
+    <a href="{{ site.github.repository_url }}" class="btn" target="_blank">View on GitHub</a>
+    <a href="{{ site.github.issues_url }}" target="_blank" class="btn">Report a Bug</a>
   {% endif %}
   {% if site.show_downloads %}
     <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
@@ -13,7 +13,7 @@
   {% if site.github.is_project_page %}
     <a href="#site-nav" class="btn">Site Navigation</a>
   {% endif %}
-  {% if page.title != "Play Rock Paper Scissors Game - Home" and site.github.is_project_page %}
+  {% if page.title != "RPSG" and site.github.is_project_page %}
     <a href="./" class="btn">Home</a>
   {% endif %}
 </section>

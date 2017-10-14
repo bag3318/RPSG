@@ -1,4 +1,6 @@
 title: Rock Paper Scissors Game
+# title_separator: "-"
+# name: "RPSG"
 description: A Ruby Programmed Rock Paper Scissors Game
 show_downloads: true
 google_analytics: false
