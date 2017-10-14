@@ -34,9 +34,9 @@ class RockPaperScissorsGame
 
     # define entry to symbol (key to value)
     NTRY_TO_SYM = { 
-      CHOICES[0][0] => :ROCK    , CHOICES[0][1]     => :ROCK    ,
-      CHOICES[1][0] => :PAPER   , CHOICES[1][1]     => :PAPER   ,
-      CHOICES[2][0] => :SCISSORS, CHOICES[2][1]     => :SCISSORS
+      CHOICES[0][0] => :ROCK    , CHOICES[0][1] => :ROCK    ,
+      CHOICES[1][0] => :PAPER   , CHOICES[1][1] => :PAPER   ,
+      CHOICES[2][0] => :SCISSORS, CHOICES[2][1] => :SCISSORS
     } 
 
     # define valid entries
