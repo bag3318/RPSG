@@ -159,4 +159,6 @@ class RockPaperScissorsGame
 end 
 
 RockPaperScissorsGame.new.play(2) # best out of 3
+
+$end
 ```
