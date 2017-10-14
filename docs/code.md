@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /code.html
-tite: "Master Code"
+title: "Master Code"
 ---
 
 # Master Code
