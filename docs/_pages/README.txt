@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /readme.html
-title: README
+title: "README - RPSG"
 ---
 
 

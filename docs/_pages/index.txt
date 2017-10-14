@@ -1,6 +1,6 @@
 ---
 layout: default
-title: RPSG
+title: "Rock Paper Scissors Game - RPSG"
 permalink: /index.html
 ---
 

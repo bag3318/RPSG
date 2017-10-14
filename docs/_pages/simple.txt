@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Simple Code"
+title: "Simple Code - RPSG"
 permalink: /simple.html
 ---
 

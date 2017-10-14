@@ -9,10 +9,7 @@ url: "https://bag3318.github.io/RPSG"
 repository: "bag3318/RPSG"
 port: 1988
 include: [
-  index.md,
-  code.md,
-  simple.md,
-  README.md
+  '_pages'
 ]
 exclude:
   - Gemfile
@@ -63,3 +60,8 @@ defaults:
     values:
       layout: "default"
       author: "bag3318"
+
+collections:
+   pages:
+     output: true
+     permalink: /_pages/
