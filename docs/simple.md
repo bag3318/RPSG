@@ -34,5 +34,7 @@ loop do
   end
   break
 end
+
+$end
 {% endhighlight %}
 
