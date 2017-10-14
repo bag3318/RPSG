@@ -1,7 +1,7 @@
 Gem::Specification.new do |spec| 
   spec.name                             = "rpsg"
   spec.version                          = "0.3.0"
-  spec.date                             = "2017-10-14"
+  spec.date                             = "2017-10-14" # format: YYYY/MM/DD
   spec.summary                          = "A Rock Paper Scissors Game RubyGem"
   spec.description                      = <<-EOF 
     A Ruby-programmed rock paper scissors game. 
@@ -24,7 +24,8 @@ Gem::Specification.new do |spec|
   spec.bindir                           = "bin"
   spec.metadata                         = { 
     "issue_tracker" => "https://github.com/bag3318/RPSG/issues",
-    "source_code"   => "https://github.com/bag3318/RPSG" 
+    "source_code"   => "https://github.com/bag3318/RPSG",
+    "website"       => "https://bag3318.github.io/RPSG"
   }
   spec.executables                     << "rpsg"
   spec.requirements                    << "A Windows or Mac computer"
@@ -32,7 +33,7 @@ Gem::Specification.new do |spec|
   # '--main' << 'README' <<
   # '--line-numbers'
   spec.add_runtime_dependency 'bundler' , '~> 1.14', '>= 1.14.6'
-  spec.add_runtime_dependency 'jekyll'  
+  spec.add_runtime_dependency 'jekyll'  , '~> 3.0' , '>= 3.0.0'
   spec.add_runtime_dependency 'rake'    , '~> 12.0', '>= 12.0.0'
   spec.add_runtime_dependency 'rdoc'    , '~> 5.1' , '>= 5.1.0'
   spec.add_runtime_dependency 'rvm'     , '~> 1.11', '>= 1.11.3.9'
