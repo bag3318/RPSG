@@ -5,6 +5,7 @@ require 'rdoc/task'
 file_path = "./test/test_rpsg.rb"
 
 task :test do 
+	# tests the ruby test file
 	ruby file_path
 end
 
