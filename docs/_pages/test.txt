@@ -9,6 +9,8 @@ title: Test
 This is a test
 ==============
 
+__________________________________
+
 **kramdown comment**
 
 {::comment}
@@ -31,3 +33,41 @@ hello world
 
 [//]: # (comment)
 [//]: # "comment"
+
+__________________________________
+
+[Google](https://www.google.com/){: target="_blank"}
+<a href="https://www.google.com/" target="_blank">Google</a>
+
+__________________________________
+
+```
+# code
+```
+
+`code`
+
+
+# syntax highlighting
+
+## markdown method
+
+```ruby
+print "Hello World"
+```
+
+```python
+print "hello"
+```
+
+## kramdown method
+
+~~~ruby
+puts "hello world"
+~~~
+
+## liquid method
+
+{% highlight ruby %}
+puts "ruby"
+{% endhighlight %}
