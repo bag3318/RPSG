@@ -1,0 +1,33 @@
+---
+layout: default
+permalink: /test.html
+title: Test
+---
+
+# This is a test 
+
+This is a test
+==============
+
+**kramdown comment**
+
+{::comment}
+hello world
+{:/comment}
+
+**liquid comment**
+
+{% comment %}
+hell world
+{% endcomment %}
+
+**html comment**
+
+<!-- 
+hello world
+-->
+
+**markdown comments**
+
+[//]: # (comment)
+[//]: # "comment"
