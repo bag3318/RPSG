@@ -1,0 +1,23 @@
+---
+layout: default
+title: "Using Bundler - RPSG"
+permalink: /bundler.html
+---
+
+# Utilizing Bundler
+
+> Bundler is an easy and efficient way to get all the correct gem versions installed for `RPSG`
+
+## Windows/Mac (OSX)
+
+### Using Bundle Install
+
+1. Open `Command Prompt`/`Terminal` depending on OS
+2. `cd` to the directory of the `Gemfile` in the `RPSG` repository folder
+	* do download the `RPSG` repo folder, go [here](https://github.com/bag3318/RPSG) and click `Download` then `Download ZIP`
+3. run `bundle install` 
+
+### Using Bundle Update
+
+1. `cd` to the directory of the `Gemfile` in the `RPSG` repository folder
+2. run `bundle update`

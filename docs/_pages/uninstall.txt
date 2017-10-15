@@ -1,0 +1,16 @@
+---
+layout: default
+title: "How to Uninstall - RPSG"
+permalink: /uninstall.html
+---
+
+# How to Uninstall
+
+> This guide will show you how to quickly uninstall `RPSG`
+
+## Mac (OSX)/Windows
+
+1. Open `Command Prompt`/`Terminal` (depending on OS)
+2. Type in `gem uninstall rpsg`
+3. Hit <kbd>Enter</kbd>/<kbd>Return</kbd> (depending on OS)
+4. Confirm Uninstallation
