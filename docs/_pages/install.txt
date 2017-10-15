@@ -20,7 +20,7 @@ __What you will install:__
 3. Homebrew
 4. RVM
 5. XCode Command Line Tools
-5. RPSG (my RubyGem)
+6. RPSG (my RubyGem)
 
 ### Useful Skills:
 
