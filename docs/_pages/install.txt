@@ -24,7 +24,7 @@ __What you will install:__
 
 ### Useful Skills:
 
-#### To open the `Terminal`:
+#### To open the `Terminal`
 
 1. Press <kbd>Command</kbd> + <kbd>Space</kbd>
 2. Type in `Terminal`
