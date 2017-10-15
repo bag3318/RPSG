@@ -68,7 +68,7 @@ __What you will install:__
 2. RubyGems
 3. RPSG (my RubyGem)
 
-### Usefull Skills
+### Useful Skills
 
 #### Opening the Command Prompt
 
@@ -90,7 +90,7 @@ __What you will install:__
 	* Web Browser ex: Chrome, Firefox, IE, Safari, Edge, Opera, etc...
 2. Copy/paste this into the browser's URL bar `https://rubyinstaller.org/downloads/`
 3. Press <kbd>Enter</kbd>
-4. Downoad the appropriate installer
+4. Download the appropriate installer
 
 ### Step 2 - Installing Ruby & RubyGems
 
