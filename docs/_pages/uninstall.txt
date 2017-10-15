@@ -6,6 +6,9 @@ permalink: /uninstall.html
 
 # How to Uninstall
 
+* auto-gen TOC:
+{:toc}
+
 > This guide will show you how to quickly uninstall `RPSG`
 
 ## Mac (OSX)/Windows

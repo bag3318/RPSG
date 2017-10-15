@@ -1,6 +1,9 @@
 RPSG (Rock Paper Scissors Game)
 ===============================
 
+* auto-gen TOC:
+{:toc}
+
 Requirements
 ------------
 

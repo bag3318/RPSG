@@ -6,6 +6,9 @@ permalink: /bundler.html
 
 # Utilizing Bundler
 
+* auto-gen TOC:
+{:toc}
+
 > Bundler is an easy and efficient way to get all the correct gem versions installed for `RPSG`
 
 ## Windows/Mac (OSX)

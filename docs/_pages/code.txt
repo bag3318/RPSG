@@ -10,6 +10,9 @@ contains complete RPSG code
 
 # Master Code
 
+* auto-gen TOC:
+{:toc}
+
 > The master code will look like this:
 
 ```

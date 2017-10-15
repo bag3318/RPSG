@@ -6,6 +6,9 @@ permalink: /index.html
 
 # Rock Paper Scissors Game
 
+* auto-gen TOC:
+{:toc}
+
 > Welcome to my **RPSG** home site. I created my `RPSG` gem with __Ruby__, the programming language. {::comment}<br/>{:/comment}
 
 > _**Please Enjoy! :)**_{: style="text-decoration: underline;"}

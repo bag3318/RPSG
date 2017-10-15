@@ -4,6 +4,11 @@ title: "Simple Code - RPSG"
 permalink: /simple.html
 ---
 
+# Simple/Beginners RPS Code
+
+* auto-gen TOC:
+{:toc}
+
 > This is what a beginner's RPS code might look like
 
 {% highlight ruby %}

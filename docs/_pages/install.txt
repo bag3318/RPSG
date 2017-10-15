@@ -6,6 +6,9 @@ permalink: /install.html
 
 # Install Guide
 
+* auto-gen TOC:
+{:toc}
+
 > This guide will tell you how to install everything that is needed for using my **`RPSG`** gem.
 
 ## For Mac/OSX
