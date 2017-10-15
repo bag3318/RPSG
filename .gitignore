@@ -5,7 +5,6 @@
 *.ste
 *.jekyll-metadata
 Gemfile.lock
-working
 rpsg_complete.rb
 
 # If gitignore is not working,
