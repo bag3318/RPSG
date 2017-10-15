@@ -3,6 +3,7 @@
 *.sublime-project
 *.sublime-workspace
 *.ste
+*.jekyll-metadata
 Gemfile.lock
 working
 rpsg_complete.rb
