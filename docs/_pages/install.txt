@@ -30,7 +30,7 @@ __What you will install:__
 2. Type in `Terminal`
 3. Press <kbd>Return</kbd>
 
-#### To Copy:
+#### To Copy
 
 1. Press <kbd>Command</kbd> + <kbd>C</kbd>
 
@@ -79,7 +79,7 @@ __What you will install:__
 2. Type in `cmd`
 3. Press <kbd>Enter</kbd>
 
-#### To Copy:
+#### To Copy
 
 1. Press <kbd>Control</kbd> + <kbd>C</kbd>
 
