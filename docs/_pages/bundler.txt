@@ -14,7 +14,7 @@ permalink: /bundler.html
 
 1. Open `Command Prompt`/`Terminal` depending on OS
 2. `cd` to the directory of the `Gemfile` in the `RPSG` repository folder
-	* do download the `RPSG` repo folder, go [here](https://github.com/bag3318/RPSG) and click `Download` then `Download ZIP`
+	* do download the `RPSG` repo folder, go [here](https://github.com/bag3318/RPSG){: target="_blank"} and click `Download` then `Download ZIP`
 3. run `bundle install` 
 
 ### Using Bundle Update
