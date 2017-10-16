@@ -1,19 +1,19 @@
 ---
 layout: default
 permalink: /code.html
-title: "Master Code - RPSG"
+title: "Complete Code - RPSG"
 ---
 
 {::comment}
 contains complete RPSG code
 {:/comment}
 
-# Master Code
+# Complete Code
 
 * auto-gen TOC:
 {:toc}
 
-> The master code will look like this:
+> The complete code will look like this:
 
 ```
 % rpsg
