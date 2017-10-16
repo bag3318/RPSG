@@ -5,7 +5,7 @@ class RockPaperScissorsGame
 
   require "Constants.rb"
 
-  protected_methods :Constants
+  protected :Constants
 
   class << self
     # add continue method for asking the user if they want to play rock paper scissors
@@ -63,7 +63,7 @@ class RockPaperScissorsGame
 
   require "PrivateMethods.rb"
   
-  private_methods :PrivateMethods
+  private :PrivateMethods
 
 end 
 
