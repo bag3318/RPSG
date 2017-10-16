@@ -58,7 +58,7 @@ class RockPaperScissorsGame
     else 
       puts "\nIt's a tie!\n" 
     end 
-    print "\n[press any key to exit game]"
+    print "\n[press the enter/return key to exit game]"
     gets
   end
 

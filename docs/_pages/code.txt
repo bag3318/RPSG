@@ -36,7 +36,7 @@ class RockPaperScissorsGame
   # specify the version for the rubygem
   module RPSG
     # create version constant for the rubygem
-    VERSION = "0.3.3" 
+    VERSION = "0.3.4" 
   end
 
   # create module that holds all contents for this script
@@ -129,7 +129,7 @@ class RockPaperScissorsGame
     else 
       puts "\nIt's a tie!\n" 
     end 
-    print "\n[press any key to exit game]"
+    print "\n[press the enter/return key to exit game]"
     gets
   end
 
