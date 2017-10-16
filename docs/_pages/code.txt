@@ -43,9 +43,11 @@ class RockPaperScissorsGame
   module Constants 
     
     # create 2d list of choices
+    protected
     CHOICES = [['r', 'rock'], ['p', 'paper'], ['s', 'scissors']] 
 
     # define entry to symbol (key to value)
+    protected
     NTRY_TO_SYM = { 
       CHOICES[0][0] => :ROCK    , CHOICES[0][1] => :ROCK    ,
       CHOICES[1][0] => :PAPER   , CHOICES[1][1] => :PAPER   ,
@@ -53,12 +55,15 @@ class RockPaperScissorsGame
     } 
 
     # define valid entries
+    protected
     VALID_ENTRIES = NTRY_TO_SYM.keys 
 
     # define computer choices
+    protected
     COMPUTER_CHOICES = NTRY_TO_SYM.values 
 
     # create winners 2d list array with format: winning choice, losing choice
+    protected
     WINNERS = [
       [:SCISSORS, :PAPER   ], 
       [:PAPER   , :ROCK    ], 
@@ -66,11 +71,12 @@ class RockPaperScissorsGame
     ] 
 
     # this will take the original WINNERS array and flip the symbols, thus returning a loss for the user/player
+    protected
     LOSERS = WINNERS.map { |winning_choice,losing_choice| [losing_choice,winning_choice] } 
 
   end
 
-  protected_methods :Constants
+  # protected_methods :Constants
 
   class << self
     # add continue method for asking the user if they want to play rock paper scissors
@@ -126,6 +132,7 @@ class RockPaperScissorsGame
     gets
   end
 
+  private
   # add module for private methods for the rpsg calculations
   module PrivateMethods
     class << self
@@ -165,9 +172,9 @@ class RockPaperScissorsGame
       end 
     end
   end
-
+  public
   
-  private_methods :PrivateMethods
+  # private_methods :PrivateMethods
 
 end 
 

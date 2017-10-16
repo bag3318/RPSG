@@ -1,3 +1,4 @@
+private
 # add module for private methods for the rpsg calculations
 module PrivateMethods
   class << self
@@ -37,3 +38,4 @@ module PrivateMethods
     end 
   end
 end
+public

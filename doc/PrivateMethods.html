@@ -125,7 +125,7 @@
 
           
           <div class="method-source-code" id="final_outcome-source">
-            <pre><span class="ruby-comment"># File lib/PrivateMethods.rb, line 32</span>
+            <pre><span class="ruby-comment"># File lib/PrivateMethods.rb, line 33</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">final_outcome</span>(<span class="ruby-identifier">pl</span>,<span class="ruby-identifier">co</span>) 
   <span class="ruby-keyword">return</span> <span class="ruby-value">:WIN</span>  <span class="ruby-keyword">if</span> <span class="ruby-identifier">pl</span> <span class="ruby-operator">&gt;</span> <span class="ruby-identifier">co</span> 
   <span class="ruby-keyword">return</span> <span class="ruby-value">:LOSE</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">pl</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">co</span>
@@ -161,7 +161,7 @@
 
           
           <div class="method-source-code" id="player_choice-source">
-            <pre><span class="ruby-comment"># File lib/PrivateMethods.rb, line 5</span>
+            <pre><span class="ruby-comment"># File lib/PrivateMethods.rb, line 6</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">player_choice</span>
   <span class="ruby-identifier">loop</span> <span class="ruby-keyword">do</span>
     <span class="ruby-identifier">print</span> <span class="ruby-string">&quot;\nChoose: Rock (r), Paper (p), or Scissors (s): &quot;</span>
@@ -211,7 +211,7 @@
 
           
           <div class="method-source-code" id="player_outcome-source">
-            <pre><span class="ruby-comment"># File lib/PrivateMethods.rb, line 26</span>
+            <pre><span class="ruby-comment"># File lib/PrivateMethods.rb, line 27</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">player_outcome</span>(<span class="ruby-identifier">plays</span>)
   <span class="ruby-keyword">return</span> <span class="ruby-value">:WIN</span>  <span class="ruby-keyword">if</span> <span class="ruby-constant">Constants</span><span class="ruby-operator">::</span><span class="ruby-constant">WINNERS</span>.<span class="ruby-identifier">include?</span>(<span class="ruby-identifier">plays</span>)
   <span class="ruby-keyword">return</span> <span class="ruby-value">:LOSE</span> <span class="ruby-keyword">if</span> <span class="ruby-constant">Constants</span><span class="ruby-operator">::</span><span class="ruby-constant">LOSERS</span>.<span class="ruby-identifier">include?</span>(<span class="ruby-identifier">plays</span>)
