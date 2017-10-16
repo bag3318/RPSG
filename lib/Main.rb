@@ -52,12 +52,13 @@ class RockPaperScissorsGame
          "computer: #{@computer_score} (ties: #{@ties}).\n" 
     case PrivateMethods.final_outcome(@player_score, @computer_score)
     when :WIN 
-      puts "\nPlayer wins!" 
+      puts "\nPlayer wins!\n" 
     when :LOSE
-      puts "\nComputer wins!" 
+      puts "\nComputer wins!\n" 
     else 
-      puts "\nIt's a tie!" 
+      puts "\nIt's a tie!\n" 
     end 
+    print "\n[press any key to exit game]"
     gets
   end
 
