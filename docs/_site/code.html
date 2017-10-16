@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="theme-color" content="#157878"/>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" href="/assets/css/style.css?v=e24d68ff9921a749ac961e11404ba864e94988a6"/>
+    <link rel="stylesheet" href="/assets/css/style.css?v=dff25c1fa3ee3f6d727beb447446ccb8bde494b0"/>
     <script src="assets/js/pace.min.js"></script>
     
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png"/>
@@ -61,15 +61,21 @@
 <div class="language-ruby highlighter-rouge"><pre class="highlight"><code><span class="c1">#!/usr/bin/env ruby</span>
 
 <span class="cm">=begin
-|==============|
-| Req Ruby Ver |
-|--------------|
-| &gt;= v2.0.0    |
-|==============|
+|====================================|
+| Req Ruby Ver | Req Ruby Gems Ver   |
+|--------------|---------------------|
+| &gt;= v2.0.0    | &gt;= v2.6.0           |
+|====================================|
 =end</span>
 
 <span class="c1"># create master class for rpsg</span>
 <span class="k">class</span> <span class="nc">RockPaperScissorsGame</span>
+
+  <span class="c1"># specify the version for the rubygem</span>
+  <span class="k">module</span> <span class="nn">RPSG</span>
+    <span class="c1"># create version constant for the rubygem</span>
+    <span class="no">VERSION</span> <span class="o">=</span> <span class="s2">"0.3.3"</span> 
+  <span class="k">end</span>
 
   <span class="c1"># create module that holds all contents for this script</span>
   <span class="k">module</span> <span class="nn">Constants</span> 
