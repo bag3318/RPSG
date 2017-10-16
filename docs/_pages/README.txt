@@ -44,3 +44,4 @@ How To Use
 ________
 
 RubyGems page: [https://rubygems.org/gems/rpsg](https://rubygems.org/gems/rpsg){: target="_blank"}
+Source Code: [https://github.com/bag3318/rpsg](https://github.com/bag3318/rpsg){: target="_blank"}
