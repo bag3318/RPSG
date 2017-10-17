@@ -4,6 +4,7 @@
 *.sublime-workspace
 *.ste
 *.jekyll-metadata
+_MACOSX
 Gemfile.lock
 rpsg_complete.rb
 
