@@ -149,13 +149,6 @@ class RockPaperScissorsGame
           else
             return nil
           end
-          # # one may also do this:
-          # case
-          # when Constants::NTRY_TO_SYM.key?(choice)
-          #   return Constants::NTRY_TO_SYM[choice]
-          # when choice != Constants::VALID_ENTRIES
-          #   puts "That entry is invalid. Please re-enter." 
-          # end
         end 
       end 
       # define outcomes of players choice against cpu
