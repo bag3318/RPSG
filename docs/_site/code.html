@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="theme-color" content="#157878"/>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" href="/assets/css/style.css?v=f306d255cb1e16873c507a9c625c29dd668a8b4d"/>
+    <link rel="stylesheet" href="/assets/css/style.css?v=fd8aca754065b7c707ca2b5b65be4f2007f953dd"/>
     <script src="assets/js/pace.min.js"></script>
     
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png"/>
@@ -139,7 +139,7 @@
   <span class="k">def</span> <span class="nf">play</span><span class="p">(</span><span class="n">winning_score</span><span class="p">)</span> 
     <span class="c1"># make while loop</span>
     <span class="k">while</span> <span class="vi">@player_score</span> <span class="o">&lt;</span> <span class="n">winning_score</span> <span class="o">&amp;&amp;</span> <span class="vi">@computer_score</span> <span class="o">&lt;</span> <span class="n">winning_score</span> 
-      <span class="nb">puts</span> <span class="s2">"Player score: </span><span class="si">#{</span><span class="vi">@player_score</span><span class="si">}</span><span class="s2">, "</span> <span class="o">+</span> 
+      <span class="nb">puts</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">Player score: </span><span class="si">#{</span><span class="vi">@player_score</span><span class="si">}</span><span class="s2">, "</span> <span class="o">+</span> 
            <span class="s2">"Computer score: </span><span class="si">#{</span><span class="vi">@computer_score</span><span class="si">}</span><span class="s2">, Ties: </span><span class="si">#{</span><span class="vi">@ties</span><span class="si">}</span><span class="s2">.</span><span class="se">\n</span><span class="s2">"</span>
       <span class="n">player</span> <span class="o">=</span> <span class="no">PrivateMethods</span><span class="p">.</span><span class="nf">player_choice</span> 
       <span class="n">computer</span> <span class="o">=</span> <span class="no">Constants</span><span class="o">::</span><span class="no">COMPUTER_CHOICES</span><span class="p">.</span><span class="nf">sample</span> <span class="c1"># chooses a random option</span>

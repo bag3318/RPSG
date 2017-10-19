@@ -30,7 +30,7 @@ class RockPaperScissorsGame
   def play(winning_score) 
     # make while loop
     while @player_score < winning_score && @computer_score < winning_score 
-      puts "Player score: #{@player_score}, " + 
+      puts "\nPlayer score: #{@player_score}, " + 
            "Computer score: #{@computer_score}, Ties: #{@ties}.\n"
       player = PrivateMethods.player_choice 
       computer = Constants::COMPUTER_CHOICES.sample # chooses a random option
