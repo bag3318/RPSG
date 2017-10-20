@@ -7,5 +7,5 @@ lib = File.expand_path("../../lib", __FILE__)
 $:.unshift(lib)
 
 
-load "Main.rb"
+load "Main.rb" # load main file
 
