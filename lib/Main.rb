@@ -18,7 +18,7 @@ class RockPaperScissorsGame
   end 
 
   # print out strings
-  continue("You are about to enter a rock-paper-scissors best of 3 match.", "Press the return/enter key to continue...", "")
+  continue("\nYou are about to enter a rock-paper-scissors best of 3 match.", "\nPress the return/enter key to continue...", "")
   
   # initialize variables
   def initialize
