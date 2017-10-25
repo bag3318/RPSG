@@ -36,43 +36,43 @@ class RockPaperScissorsGame
   # specify the version for the rubygem
   module RPSG
     # create version constant for the rubygem
-    VERSION = "0.3.5" 
+    VERSION = "0.3.6" 
   end
 
   # create module that holds all contents for this script
-  module Constants 
-    
+  module Constants
+
     # create 2d list of choices
     protected
-    CHOICES = [['r', 'rock'], ['p', 'paper'], ['s', 'scissors']] 
+    CHOICES = [['r', 'rock'], ['p', 'paper'], ['s', 'scissors']]
 
     # define entry to symbol (key to value)
     protected
-    NTRY_TO_SYM = { 
+    NTRY_TO_SYM = {
       CHOICES[0][0] => :ROCK    , CHOICES[0][1] => :ROCK    ,
       CHOICES[1][0] => :PAPER   , CHOICES[1][1] => :PAPER   ,
       CHOICES[2][0] => :SCISSORS, CHOICES[2][1] => :SCISSORS
-    } 
+    }
 
     # define valid entries
     protected
-    VALID_ENTRIES = NTRY_TO_SYM.keys 
+    VALID_ENTRIES = NTRY_TO_SYM.keys
 
     # define computer choices
     protected
-    COMPUTER_CHOICES = NTRY_TO_SYM.values 
+    COMPUTER_CHOICES = NTRY_TO_SYM.values
 
     # create winners 2d list array with format: winning choice, losing choice
     protected
     WINNERS = [
-      [:SCISSORS, :PAPER   ], 
-      [:PAPER   , :ROCK    ], 
+      [:SCISSORS, :PAPER   ],
+      [:PAPER   , :ROCK    ],
       [:ROCK    , :SCISSORS]
-    ] 
+    ]
 
     # this will take the original WINNERS array and flip the symbols, thus returning a loss for the user/player
     protected
-    LOSERS = WINNERS.map { |winning_choice,losing_choice| [losing_choice,winning_choice] } 
+    LOSERS = WINNERS.map { |winning_choice,losing_choice| [losing_choice,winning_choice] }
 
   end
 
@@ -81,54 +81,54 @@ class RockPaperScissorsGame
   class << self
     # add continue method for asking the user if they want to play rock paper scissors
     def continue(str1,str2,str3)
-      puts  str1 
+      puts  str1
       print str2
-      gets 
+      gets
       puts  str3
-    end 
-  end 
+    end
+  end
 
   # print out strings
   continue("\nYou are about to enter a rock-paper-scissors best of 3 match.", "\nPress the return/enter key to continue...", "")
-  
+
   # initialize variables
   def initialize
     # initialize variables and set all equal to zero
-    @player_score = @computer_score = @ties = 0 
+    @player_score = @computer_score = @ties = 0
   end
 
   # define play method, this will be the main function for playing rock paper scissors
-  def play(winning_score) 
+  def play(winning_score)
     # make while loop
-    while @player_score < winning_score && @computer_score < winning_score 
-      puts "\nPlayer score: #{@player_score}, " + 
+    while @player_score < winning_score && @computer_score < winning_score
+      puts "\nPlayer score: #{@player_score}, " +
            "Computer score: #{@computer_score}, Ties: #{@ties}.\n"
-      player = PrivateMethods.player_choice 
+      player = PrivateMethods.player_choice
       computer = Constants::COMPUTER_CHOICES.sample # chooses a random option
-      puts "\nPlayer chooses #{player.to_s.downcase}." 
-      puts "Computer chooses #{computer.to_s.downcase}.\n" 
-      case PrivateMethods.player_outcome [player, computer] 
+      puts "\nPlayer chooses #{player.to_s.downcase}."
+      puts "Computer chooses #{computer.to_s.downcase}.\n"
+      case PrivateMethods.player_outcome [player, computer]
       when :WIN
-        puts "\n#{player.to_s.capitalize} beats #{computer.to_s.downcase}, player wins the round.\n"  
+        puts "\n#{player.to_s.capitalize} beats #{computer.to_s.downcase}, player wins the round.\n"
         @player_score += 1
       when :LOSE
-        puts "\n#{computer.to_s.capitalize} beats #{player.to_s.downcase}, computer wins the round.\n" 
-        @computer_score += 1 
-      else 
-        puts "\nTie, choose again\n" 
+        puts "\n#{computer.to_s.capitalize} beats #{player.to_s.downcase}, computer wins the round.\n"
+        @computer_score += 1
+      else
+        puts "\nTie, choose again\n"
         @ties += 1
       end
     end
     puts "\nFinal score: player: #{@player_score}, " +
-         "computer: #{@computer_score} (ties: #{@ties}).\n" 
+         "computer: #{@computer_score} (ties: #{@ties}).\n"
     case PrivateMethods.final_outcome(@player_score, @computer_score)
-    when :WIN 
-      puts "\nPlayer wins!\n" 
+    when :WIN
+      puts "\nPlayer wins!\n"
     when :LOSE
-      puts "\nComputer wins!\n" 
-    else 
-      puts "\nIt's a tie!\n" 
-    end 
+      puts "\nComputer wins!\n"
+    else
+      puts "\nIt's a tie!\n"
+    end
     print "\n[press the enter/return key to exit game]"
     gets
   end
@@ -149,28 +149,28 @@ class RockPaperScissorsGame
           else
             return nil
           end
-        end 
-      end 
+        end
+      end
       # define outcomes of players choice against cpu
       def player_outcome(plays)
         return :WIN  if Constants::WINNERS.include?(plays)
         return :LOSE if Constants::LOSERS.include?(plays)
         return :TIE  if !:WIN | !:LOSE
-      end 
+      end
       # define final outcome that gives the result of who one the whole match
-      def final_outcome(pl,co) 
-        return :WIN  if pl > co 
+      def final_outcome(pl,co)
+        return :WIN  if pl > co
         return :LOSE if pl < co
-        return :TIE  if pl = co 
+        return :TIE  if pl = co
         # there will never be a tie for the final outcome due to the code in the play() method
-      end 
+      end
     end
   end
   public
-  
+
   # private_methods :PrivateMethods
 
-end 
+end
 
 RockPaperScissorsGame.new.play(2) # best out of 3
 
