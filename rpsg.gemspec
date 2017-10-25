@@ -1,10 +1,10 @@
-Gem::Specification.new do |spec| 
+Gem::Specification.new do |spec|
   spec.name                             = "rpsg"
-  spec.version                          = "0.3.5"
+  spec.version                          = "0.3.6"
   spec.date                             = "2017-10-25" # format: YYYY/MM/DD
   spec.summary                          = "A Rock Paper Scissors Game RubyGem"
-  spec.description                      = <<-EOF 
-    A Ruby-programmed rock paper scissors game. 
+  spec.description                      = <<-EOF
+    A Ruby-programmed rock paper scissors game.
     Now you can play rock paper scissors on your computer whenever you'd like! :)
   EOF
   spec.author                           = "bag3318"
@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.require_paths                    = ["lib"]
   spec.files                            = `git ls-files -z`.split("\x0")
   spec.post_install_message             = <<-EOF
-    Thanks for installing my RPSG gem! 
+    Thanks for installing my RPSG gem!
     I hope you will have fun playing rock paper scissors! :)
   EOF
   spec.license                          = "MIT"
@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.required_rubygems_version        = ">= 2.6.0"
   spec.extra_rdoc_files                 = ["README.md"]
   spec.bindir                           = "bin"
-  spec.metadata                         = { 
+  spec.metadata                         = {
     "issue_tracker"  => "https://github.com/bag3318/RPSG/issues",
     "source_code"    => "https://github.com/bag3318/RPSG"       ,
     "website"        => "https://bag3318.github.io/RPSG"        ,
