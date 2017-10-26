@@ -1,7 +1,7 @@
 Gem::Specification.new do |spec|
   spec.name                             = "rpsg"
   spec.version                          = "0.3.6"
-  spec.date                             = "2017-10-25" # format: YYYY/MM/DD
+  spec.date                             = "2017-10-26" # format: YYYY/MM/DD
   spec.summary                          = "A Rock Paper Scissors Game RubyGem"
   spec.description                      = <<-EOF
     A Ruby-programmed rock paper scissors game.
@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.require_paths                    = ["lib"]
   spec.files                            = `git ls-files -z`.split("\x0")
   spec.post_install_message             = <<-EOF
-    Thanks for installing my RPSG gem!
+    Thanks for installing my RPSG gem!/
     I hope you will have fun playing rock paper scissors! :)
   EOF
   spec.license                          = "MIT"
