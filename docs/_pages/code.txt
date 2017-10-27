@@ -133,7 +133,7 @@ class RockPaperScissorsGame
     gets
   end
 
-  private
+  private # make private
   # add module for private methods for the rpsg calculations
   module PrivateMethods
     class << self
@@ -166,7 +166,7 @@ class RockPaperScissorsGame
       end
     end
   end
-  public
+  public make public
 
   # private_methods :PrivateMethods
 
