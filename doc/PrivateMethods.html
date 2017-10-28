@@ -110,7 +110,7 @@
         
         <div class="method-heading">
           <span class="method-name">final_outcome</span><span
-            class="method-args">(pl,co)</span>
+            class="method-args">(pl, co)</span>
           
           <span class="method-click-advice">click to toggle source</span>
           
@@ -126,7 +126,7 @@
           
           <div class="method-source-code" id="final_outcome-source">
             <pre><span class="ruby-comment"># File lib/PrivateMethods.rb, line 26</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">final_outcome</span>(<span class="ruby-identifier">pl</span>,<span class="ruby-identifier">co</span>)
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">final_outcome</span>(<span class="ruby-identifier">pl</span>, <span class="ruby-identifier">co</span>)
   <span class="ruby-keyword">return</span> <span class="ruby-value">:WIN</span>  <span class="ruby-keyword">if</span> <span class="ruby-identifier">pl</span> <span class="ruby-operator">&gt;</span> <span class="ruby-identifier">co</span>
   <span class="ruby-keyword">return</span> <span class="ruby-value">:LOSE</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">pl</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">co</span>
   <span class="ruby-comment"># return :TIE  if pl = co</span>
@@ -166,9 +166,9 @@
   <span class="ruby-identifier">loop</span> <span class="ruby-keyword">do</span>
     <span class="ruby-identifier">print</span> <span class="ruby-string">&quot;\nChoose: Rock (r), Paper (p), or Scissors (s): &quot;</span>
     <span class="ruby-identifier">choice</span> = <span class="ruby-identifier">gets</span>.<span class="ruby-identifier">chomp</span>.<span class="ruby-identifier">downcase</span>
-    <span class="ruby-keyword">if</span> <span class="ruby-constant">Constants</span><span class="ruby-operator">::</span><span class="ruby-constant">NTRY_TO_SYM</span>.<span class="ruby-identifier">key?</span>(<span class="ruby-identifier">choice</span>)
-      <span class="ruby-keyword">return</span> <span class="ruby-constant">Constants</span><span class="ruby-operator">::</span><span class="ruby-constant">NTRY_TO_SYM</span>[<span class="ruby-identifier">choice</span>]
-    <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">choice</span> <span class="ruby-operator">!=</span> <span class="ruby-constant">Constants</span><span class="ruby-operator">::</span><span class="ruby-constant">VALID_ENTRIES</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-constant">ProtectedConstants</span><span class="ruby-operator">::</span><span class="ruby-constant">NTRY_TO_SYM</span>.<span class="ruby-identifier">key?</span>(<span class="ruby-identifier">choice</span>)
+      <span class="ruby-keyword">return</span> <span class="ruby-constant">ProtectedConstants</span><span class="ruby-operator">::</span><span class="ruby-constant">NTRY_TO_SYM</span>[<span class="ruby-identifier">choice</span>]
+    <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">choice</span> <span class="ruby-operator">!=</span> <span class="ruby-constant">ProtectedConstants</span><span class="ruby-operator">::</span><span class="ruby-constant">VALID_ENTRIES</span>
       <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;\nThat entry is invalid. Please re-enter.\n&quot;</span>
     <span class="ruby-keyword">else</span>
       <span class="ruby-keyword">return</span> <span class="ruby-keyword">nil</span>
@@ -206,8 +206,8 @@
           <div class="method-source-code" id="player_outcome-source">
             <pre><span class="ruby-comment"># File lib/PrivateMethods.rb, line 20</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">player_outcome</span>(<span class="ruby-identifier">plays</span>)
-  <span class="ruby-keyword">return</span> <span class="ruby-value">:WIN</span>  <span class="ruby-keyword">if</span> <span class="ruby-constant">Constants</span><span class="ruby-operator">::</span><span class="ruby-constant">WINNERS</span>.<span class="ruby-identifier">include?</span>(<span class="ruby-identifier">plays</span>)
-  <span class="ruby-keyword">return</span> <span class="ruby-value">:LOSE</span> <span class="ruby-keyword">if</span> <span class="ruby-constant">Constants</span><span class="ruby-operator">::</span><span class="ruby-constant">LOSERS</span>.<span class="ruby-identifier">include?</span>(<span class="ruby-identifier">plays</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-value">:WIN</span>  <span class="ruby-keyword">if</span> <span class="ruby-constant">ProtectedConstants</span><span class="ruby-operator">::</span><span class="ruby-constant">WINNERS</span>.<span class="ruby-identifier">include?</span>(<span class="ruby-identifier">plays</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-value">:LOSE</span> <span class="ruby-keyword">if</span> <span class="ruby-constant">ProtectedConstants</span><span class="ruby-operator">::</span><span class="ruby-constant">LOSERS</span>.<span class="ruby-identifier">include?</span>(<span class="ruby-identifier">plays</span>)
   <span class="ruby-keyword">return</span> <span class="ruby-value">:TIE</span>  <span class="ruby-keyword">if</span> <span class="ruby-operator">!</span><span class="ruby-value">:WIN</span> <span class="ruby-operator">|</span> <span class="ruby-operator">!</span><span class="ruby-value">:LOSE</span>
 <span class="ruby-keyword">end</span></pre>
           </div>

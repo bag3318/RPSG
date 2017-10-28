@@ -1,11 +1,11 @@
 # create module that holds all contents for this script
-module Constants
+module ProtectedConstants
 
   # create 2d list of choices
   protected # make protected
   CHOICES = [['r', 'rock'], ['p', 'paper'], ['s', 'scissors']]
 
-  # define entry to symbol (key to value)
+  # define entry to symbol (key to value) dictionary
   protected # make protected
   NTRY_TO_SYM = {
     CHOICES[0][0] => :ROCK    , CHOICES[0][1] => :ROCK    ,
