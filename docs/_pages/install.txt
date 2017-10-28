@@ -15,7 +15,7 @@ permalink: /install.html
 
 __What you will install:__
 
-1. Ruby 
+1. Ruby
 2. RubyGems
 3. Homebrew
 4. RVM
@@ -55,7 +55,7 @@ __What you will install:__
 
 ### Step 4 - Installing RPSG
 
-1. Close `Terminal` by pressing <kbd>Command</kbd> + <kbd>Q</bkd>
+1. Close `Terminal` by pressing <kbd>Command</kbd> + <kbd>Q</kbd>
 2. Open `Terminal` again
 3. Type in the following: `gem install rpsg`, then hit <kbd>Return</kbd>
 
@@ -108,5 +108,3 @@ __What you will install:__
 ### Step 4 - Running RPSG
 
 1. Any time you would like to play rock paper scissors, just open the `Command Prompt` and type in: `rpsg` and hit <kbd>enter</kbd>
-
-
