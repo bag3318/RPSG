@@ -18,7 +18,6 @@ module ProtectedConstants
   COMPUTER_CHOICES = NTRY_TO_SYM.values
 
   # create winners 2d list array with format: winning choice, losing choice
-  protected # make protected
   WINNERS = [
     [:SCISSORS, :PAPER   ],
     [:PAPER   , :ROCK    ],
