@@ -4,8 +4,9 @@ class RockPaperScissorsGame
   require "rpsg/version.rb"
 
   require "Constants.rb"
+  
+  protected_methods :ProtectedConstants
 
-  # protected_methods :Constants
 
   class << self
     # add continue method for asking the user if they want to play rock paper scissors
