@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="theme-color" content="#157878"/>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" href="/assets/css/style.css?v=3212d5947974f00be97b37621b454665d28682ef"/>
+    <link rel="stylesheet" href="/assets/css/style.css?v=a05748f4c68340abcebe6fa7337ffcf4443a0aec"/>
     <script src="assets/js/pace.min.js"></script>
     
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png"/>
@@ -74,16 +74,18 @@
   <span class="c1"># specify the version for the rubygem</span>
   <span class="k">module</span> <span class="nn">RPSG</span>
     <span class="c1"># create version constant for the rubygem</span>
-    <span class="no">VERSION</span> <span class="o">=</span> <span class="s2">"0.4.0"</span>
+    <span class="no">VERSION</span> <span class="o">=</span> <span class="s2">"0.4.1"</span>
   <span class="k">end</span>
 
   <span class="c1"># create module that holds all contents for this script</span>
   <span class="k">module</span> <span class="nn">ProtectedConstants</span>
 
     <span class="c1"># create 2d list of choices</span>
+    <span class="kp">protected</span>
     <span class="no">CHOICES</span> <span class="o">=</span> <span class="p">[[</span><span class="s1">'r'</span><span class="p">,</span> <span class="s1">'rock'</span><span class="p">],</span> <span class="p">[</span><span class="s1">'p'</span><span class="p">,</span> <span class="s1">'paper'</span><span class="p">],</span> <span class="p">[</span><span class="s1">'s'</span><span class="p">,</span> <span class="s1">'scissors'</span><span class="p">]]</span>
 
     <span class="c1"># define entry to symbol (key to value) dictionary</span>
+    <span class="kp">protected</span>
     <span class="no">NTRY_TO_SYM</span> <span class="o">=</span> <span class="p">{</span>
       <span class="no">CHOICES</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=&gt;</span> <span class="ss">:ROCK</span>    <span class="p">,</span> <span class="no">CHOICES</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">=&gt;</span> <span class="ss">:ROCK</span>    <span class="p">,</span>
       <span class="no">CHOICES</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=&gt;</span> <span class="ss">:PAPER</span>   <span class="p">,</span> <span class="no">CHOICES</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">=&gt;</span> <span class="ss">:PAPER</span>   <span class="p">,</span>
@@ -91,9 +93,11 @@
     <span class="p">}</span>
 
     <span class="c1"># define valid entries</span>
+    <span class="kp">protected</span>
     <span class="no">VALID_ENTRIES</span> <span class="o">=</span> <span class="no">NTRY_TO_SYM</span><span class="p">.</span><span class="nf">keys</span>
 
     <span class="c1"># define computer choices</span>
+    <span class="kp">protected</span>
     <span class="no">COMPUTER_CHOICES</span> <span class="o">=</span> <span class="no">NTRY_TO_SYM</span><span class="p">.</span><span class="nf">values</span>
 
     <span class="c1"># create winners 2d list array with format: winning choice, losing choice</span>
@@ -105,11 +109,12 @@
     <span class="p">]</span>
 
     <span class="c1"># this will take the original WINNERS array and flip the symbols, thus returning a loss for the user/player</span>
+    <span class="kp">protected</span>
     <span class="no">LOSERS</span> <span class="o">=</span> <span class="no">WINNERS</span><span class="p">.</span><span class="nf">map</span> <span class="p">{</span> <span class="o">|</span><span class="n">winning_choice</span><span class="p">,</span><span class="n">losing_choice</span><span class="o">|</span> <span class="p">[</span><span class="n">losing_choice</span><span class="p">,</span><span class="n">winning_choice</span><span class="p">]</span> <span class="p">}</span>
 
   <span class="k">end</span>
 
-  <span class="nb">protected_methods</span> <span class="ss">:ProtectedConstants</span>
+  <span class="c1"># protected_methods :ProtectedConstants</span>
 
   <span class="k">class</span> <span class="o">&lt;&lt;</span> <span class="nb">self</span>
     <span class="c1"># add continue method for asking the user if they want to play rock paper scissors</span>
