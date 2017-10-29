@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
     Now you can play rock paper scissors on your computer whenever you'd like! :)
   EOF
   spec.author                           = "bag3318"
-  spec.email                            = "disclosed"
+  spec.email                            = "private"
   spec.homepage                         = "https://bag3318.github.io/RPSG"
   spec.platform                         = Gem::Platform::RUBY
   spec.require_paths                    = ["lib"]
