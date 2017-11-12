@@ -1,7 +1,7 @@
 Gem::Specification.new do |spec|
   spec.name                             = "rpsg"
   spec.version                          = "0.4.2"
-  spec.date                             = "2017-10-29" # format: YYYY/MM/DD
+  spec.date                             = "2017-11-11" # format: YYYY/MM/DD
   spec.summary                          = "A Rock Paper Scissors Game RubyGem"
   spec.description                      = <<-EOF
     A Ruby-programmed rock paper scissors game.

@@ -8,6 +8,7 @@ _MACOSX
 Gemfile.lock
 rpsg_complete.rb
 sample.txt
+docs
 
 # If gitignore is not working,
 # try this:
